@@ -16,8 +16,15 @@ static CURRENT_LOCALE: RwLock<&'static str> = RwLock::new(DEFAULT_LOCALE);
 static TRANSLATIONS: OnceLock<Translations> = OnceLock::new();
 
 pub fn init_locale() {
-    let locale = env_locale()
+    // Priority:
+    // 1. Explicit WARP_LANG override
+    // 2. System GUI locale (e.g. macOS AppleLanguages: zh-Hant-TW)
+    // 3. POSIX environment variables (LC_ALL, LC_MESSAGES, LANG)
+    let locale = std::env::var("WARP_LANG")
+        .ok()
+        .filter(|v| !v.trim().is_empty())
         .or_else(sys_locale::get_locale)
+        .or_else(env_locale)
         .unwrap_or_default();
 
     set_locale(&locale);
@@ -252,6 +259,13 @@ fn flatten_value(prefix: &str, value: &serde_yaml::Value, translations: &mut Has
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn test_init_locale_system_detection() {
+        init_locale();
+        // On this Taiwan macOS system, sys_locale::get_locale() returns zh-Hant-TW
+        assert_eq!(current_locale(), ZH_TW_LOCALE);
+    }
 
     #[test]
     fn test_set_locale_detection() {
