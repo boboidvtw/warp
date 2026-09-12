@@ -129,6 +129,7 @@ pub enum LLMModelHost {
     DirectApi,
     AwsBedrock,
     CustomEndpoint,
+    GeminiEnterprise,
     #[serde(other)]
     Unknown,
 }

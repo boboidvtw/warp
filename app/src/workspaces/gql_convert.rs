@@ -741,10 +741,12 @@ impl From<warp_graphql::workspace::LlmModelHost> for crate::ai::llms::LLMModelHo
             GqlLlmModelHost::AwsBedrock => Self::AwsBedrock,
             GqlLlmModelHost::CustomEndpoint => Self::CustomEndpoint,
             GqlLlmModelHost::Other(value) => {
-                report_error!(anyhow!(
-                    "Unknown LlmModelHost '{value}'. Make sure to update client GraphQL types!"
-                ));
-                Self::Unknown
+                if value == "GEMINI_ENTERPRISE" {
+                    Self::GeminiEnterprise
+                } else {
+                    log::debug!("Unknown LlmModelHost '{value}'");
+                    Self::Unknown
+                }
             }
         }
     }

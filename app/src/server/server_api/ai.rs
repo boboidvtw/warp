@@ -2490,10 +2490,12 @@ impl From<warp_graphql::queries::get_feature_model_choices::LlmModelHost> for LL
                 LLMModelHost::CustomEndpoint
             }
             warp_graphql::queries::get_feature_model_choices::LlmModelHost::Other(value) => {
-                report_error!(anyhow!(
-                    "Unknown LlmModelHost '{value}'. Make sure to update client GraphQL types!"
-                ));
-                LLMModelHost::Unknown
+                if value == "GEMINI_ENTERPRISE" {
+                    LLMModelHost::GeminiEnterprise
+                } else {
+                    log::debug!("Unknown LlmModelHost '{value}'");
+                    LLMModelHost::Unknown
+                }
             }
         }
     }
