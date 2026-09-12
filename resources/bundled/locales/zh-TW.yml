@@ -1,0 +1,5650 @@
+zh-TW:
+  # ── 選單欄 ──
+  menu:
+    warp: "Warp"
+
+    file: "檔案"
+
+    edit: "編輯"
+
+    view: "檢視"
+
+    tab: "分頁"
+
+    ai: "AI"
+
+    blocks: "區塊"
+
+    drive: "雲端硬碟"
+
+    window: "視窗"
+
+    help: "說明"
+
+
+    new_window: "新建視窗"
+
+    new_tab: "新建分頁"
+
+    new_terminal_tab: "新建終端機分頁"
+
+    new_agent_tab: "新建 Agent 分頁"
+
+    preferences: "偏好設定"
+
+    privacy_policy: "隱私權政策..."
+
+    set_default_terminal: "設定 Warp 為預設終端機"
+
+    log_out: "登出"
+
+    open_recent: "最近開啟"
+
+
+    copy_on_select: "終端機內選中即複製"
+
+    synchronize_inputs: "同步輸入"
+
+
+    toggle_mouse_reporting: "切換滑鼠回報"
+
+    toggle_scroll_reporting: "切換滾動回報"
+
+    toggle_focus_reporting: "切換焦點回報"
+
+    compact_mode: "精簡模式"
+
+
+    show_init_block: "顯示初始化區塊"
+
+    hide_init_block: "隱藏初始化區塊"
+
+    show_ssh_blocks: "顯示 Warpified SSH 區塊"
+
+    hide_ssh_blocks: "隱藏 Warpified SSH 區塊"
+
+    show_in_band_command_blocks: "顯示帶內命令區塊"
+
+    hide_in_band_command_blocks: "隱藏帶內命令區塊"
+
+    export_settings_csv: "匯出預設設定為 CSV 到主目錄"
+
+
+    enable_shell_debug_mode: "啟用 Shell 除錯模式 (-x)"
+
+    disable_shell_debug_mode: "禁用 Shell 除錯模式 (-x)"
+
+    enable_in_band_generators: "啟用帶內生成器"
+
+    disable_in_band_generators: "禁用帶內生成器"
+
+    enable_pty_recording: "啟用 PTY 錄製模式"
+
+    disable_pty_recording: "禁用 PTY 錄製模式"
+
+    manually_toggle_network: "手動切換網路狀態"
+
+    debug: "除錯"
+
+    use_warp_prompt: "使用 Warp 提示字元"
+
+    create_anonymous_user: "建立匿名使用者"
+
+    send_feedback: "傳送反饋..."
+
+    warp_documentation: "Warp 檔案..."
+
+    github_issues: "GitHub Issues..."
+
+    warp_slack_community: "Warp Slack 社群..."
+
+    save_new: "另存為新設定..."
+
+    reopen_closed_session: "重新開啟已關閉的工作階段"
+
+    launch_configurations: "啟動設定"
+
+
+  # ── 分頁右鍵選單 ──
+  tab:
+    rename: "重新命名分頁"
+
+    reset_name: "重置分頁名稱"
+
+    move_up: "上移分頁"
+
+    move_down: "下移分頁"
+
+    move_left: "左移分頁"
+
+    move_right: "右移分頁"
+
+    close: "關閉分頁"
+
+    close_other: "關閉其他分頁"
+
+    close_below: "關閉下方分頁"
+
+    close_right: "關閉右側分頁"
+
+    save_as_new_config: "另存為新設定"
+
+    stop_sharing: "停止共享"
+
+    share_session: "共享工作階段"
+
+    stop_sharing_all: "停止全部共享"
+
+    copy_link: "複製連結"
+
+    copy_title: "複製分頁標題"
+
+    copy_pane_title: "複製面板標題"
+
+    copy_branch: "複製分支名"
+
+    copy_working_dir: "複製工作目錄"
+
+    copy_pr_link: "複製 Pull Request 連結"
+
+    default_no_color: "預設（無顏色）"
+
+    cloud_agent_run: "雲端 Agent 執行"
+
+
+  # ── 工作區 / 工具欄 ──
+  workspace:
+    settings: "設定"
+
+    new_tab: "新建分頁"
+
+    agent: "Agent"
+
+    terminal: "終端機"
+
+    cloud_oz: "雲端 Oz"
+
+    local_docker_sandbox: "本地 Docker 沙箱"
+
+    whats_new: "新功能"
+
+    keyboard_shortcuts: "鍵盤快捷鍵"
+
+    tab_configs: "分頁設定"
+
+    new_worktree_config: "新建工作樹設定"
+
+    new_tab_config: "新建分頁設定"
+
+    reopen_closed_session: "重新開啟已關閉的工作階段"
+
+    rearrange_toolbar_items: "重新排列工具欄專案"
+
+    update_warp_manually: "手動更新 Warp"
+
+    update_and_relaunch_warp: "更新並重啟 Warp"
+
+    documentation: "檔案"
+
+    feedback: "反饋"
+
+    view_warp_logs: "檢視 Warp 日誌"
+
+    slack: "Slack"
+
+    sign_up: "註冊"
+
+    billing_and_usage: "賬單與用量"
+
+    upgrade: "升級"
+
+    upgrade_plan: "升級計劃"
+
+    invite_a_friend: "邀請朋友"
+
+    log_out: "登出"
+
+    staging_api_call_failed: "Staging API 呼叫失敗。你的 IP 地址是否發生變化？"
+
+    failed_load_conversation_data: "載入工作階段資料失敗。"
+
+    remote_control_link_copied: "遠端控制連結已複製。"
+
+    untitled_pane: "未命名面板"
+
+    view_all: "檢視全部"
+
+    show_less: "收起"
+
+    no_conversations_yet: "還沒有工作階段"
+
+    conversations_empty_description: "你與本地和 Ambient Agent 的當前及歷史工作階段會顯示在這裡。"
+
+    new_conversation: "新建工作階段"
+
+    conversation: "工作階段"
+
+    conversations_delete_in_progress: "工作階段進行中時無法刪除。"
+
+    conversation_cannot_be_deleted: "此工作階段無法刪除"
+
+    delete_conversation_confirm_title: "刪除“{title}”？"
+
+    delete_conversation_confirm_title_unknown: "刪除工作階段？"
+
+    delete_conversation_confirm_body: "此工作階段將被永久刪除。此操作無法復原。"
+
+    share_conversation: "共享工作階段"
+
+    fork_in_new_pane: "在新面板中派生"
+
+    fork_in_new_tab: "在新分頁中派生"
+
+    no_matching_conversations: "沒有匹配的工作階段"
+
+    view_options: "檢視選項"
+
+    no_tabs_open: "沒有開啟的分頁"
+
+    no_tabs_match_search: "沒有匹配搜尋的分頁。"
+
+    view_as: "檢視為"
+
+    tab_item: "標籤項"
+
+    pane_title_as: "面板標題顯示為"
+
+    additional_metadata: "附加後設資料"
+
+    failed_create_log_bundle: "建立日誌包失敗：{err}"
+
+    successfully_installed_oz_cli: "Oz CLI 已安裝成功！現在可以在命令列執行 '{command_name}'。"
+
+    learn_more: "瞭解更多"
+
+    failed_install_oz_command: "安裝 Oz 命令失敗：{error}"
+
+    successfully_uninstalled_oz_command: "Oz 命令已解除安裝成功。"
+
+    failed_uninstall_oz_command: "解除安裝 Oz 命令失敗：{error}"
+
+    notifications_permission_denied: "Warp 沒有傳送桌面通知的許可權。"
+
+    close_panel: "關閉面板"
+
+    troubleshoot_notifications: "排查通知問題"
+
+    view_changelog: "檢視更新日誌"
+
+    view_all_cloud_runs: "檢視所有云端執行"
+
+    warp_updated: "Warp 已更新！"
+
+    command_still_running: "此工作階段中仍有命令在執行。"
+
+    cannot_open_new_terminal_session: "無法開啟新的終端機工作階段"
+
+    workflow_no_longer_available: "此工作流程已不可用。"
+
+    plan_synced_to_warp_drive: "計劃已同步到 Warp Drive"
+
+    view: "檢視"
+
+    undo: "復原"
+
+    open_file: "開啟檔案"
+
+    open: "開啟: %s"
+
+    rename_pane: "重新命名面板"
+
+    rename_active_pane: "重新命名當前面板"
+
+    rename_current_tab: "重新命名當前分頁"
+
+    rename_current_pane: "重新命名當前面板"
+
+    tab_configs_chip: "在這裡訪問你的分頁設定。"
+
+    add_new_repo: " + 新增新儲存庫"
+
+    failed_load_conversation: "載入工作階段失敗。"
+
+    failed_load_conversation_for_forking: "載入用於 fork 的工作階段失敗。"
+
+    conversation_forking_failed: "工作階段 fork 失敗。"
+
+    failed_prepare_handoff: "準備 handoff 失敗。請重試。"
+
+    handing_off_to_cloud: "正在 handoff 到雲端"
+
+    no_terminal_pane_for_context: "沒有開啟的終端機面板。請開啟新面板後再附加為上下文。"
+
+    plan_already_in_context: "此計劃已在上下文中。"
+
+    check_latest_version: "請檢視最新版本後重試。"
+
+    ask_ai_description: "讓 Warp AI 解釋錯誤、建議命令或編寫指令碼。"
+
+    search_sessions_agents_files: "搜尋工作階段、Agent、檔案..."
+
+    disabled_synchronized_inputs: "已禁用所有同步輸入。"
+
+    sampling_process: "正在取樣程序，持續 3 秒..."
+
+    failed_delete_conversation: "刪除工作階段失敗。請退出 Agent 檢視後重試。"
+
+    conversation_deleted: "工作階段已刪除"
+
+    update_warp: "更新 Warp"
+
+    version_deprecation: "你的應用已過期，部分功能可能無法正常工作。請立即更新。"
+
+    version_deprecation_without_permissions: "如果不立即更新，部分 Warp 功能可能無法正常工作，但 Warp 無法執行更新。"
+
+    unable_update_new_version: "有新版本可用，但 Warp 無法執行更新。"
+
+    unable_launch_new_version: "Warp 無法啟動已安裝的新版本。"
+
+    update_now: "立即更新"
+
+    app_needs_update: "你的應用已過期，需要更新。"
+
+    restart_and_update_now: "重啟應用並立即更新"
+
+    search_repos: "搜尋儲存庫"
+
+    search_tabs: "搜尋分頁..."
+
+
+  openwarp_launch:
+    title: "Warp 現已開源"
+
+    description: "你和我們的社群可以透過 agent-first 工作流程參與構建 Warp。"
+
+    visit_repo: "訪問儲存庫"
+
+    contribute_title: "參與貢獻"
+
+    contribute_description: "Warp 用戶端程式碼現已開源。你可以使用 /feedback skill 建立 issue，並在此處檢視貢獻指南。"
+
+    contribute_link_text: "此處"
+
+    oad_title: "Open Automated Development"
+
+    oad_description: "Warp 儲存庫由 agent-first 工作流程管理，並由我們的雲端 Agent 編排平臺 Oz 驅動。"
+
+    oz_link_text: "Oz"
+
+    auto_open_weights_title: "介紹“auto (open-weights)”"
+
+    auto_open_weights_description: "我們新增了 auto 模型，它會根據任務選擇最佳開源權重模型，例如 Kimi 或 MiniMax。"
+
+
+  codex_modal:
+    new_badge: "新功能"
+
+    title: "在 Warp 中使用 Codex 模型"
+
+    description_1: "Codex 是 OpenAI 面向真實工程任務的最先進 agentic coding 模型。"
+
+    description_2: "直接在 Oz 中使用 Codex，並利用應用內程式碼審查、Agent 工作階段共享和檔案編輯等功能。"
+
+    use_latest_codex_model: "使用最新 Codex 模型"
+
+
+  free_tier_limit:
+    title: "Credits 已用完"
+
+    description: "要繼續使用 AI，請升級你的計劃。"
+
+    build_plan_price_benefits: "Build 計劃為每月 ${price}，包含免費層的全部內容，並額外提供："
+
+    build_plan_benefits: "Build 計劃包含免費層的全部內容，並額外提供："
+
+    credits_per_month: "每月 {credits} Credits"
+
+    extended_credits_per_month: "每月擴充套件 Credits"
+
+    frontier_models_access: "訪問前沿 OpenAI、Anthropic 和 Google 模型"
+
+    access_to_prefix: "訪問 "
+
+    reload_credits: "Reload Credits"
+
+    extended_cloud_agents_access: "擴充套件雲端 Agent 訪問"
+
+
+  hoa_onboarding:
+    welcome_title: "介紹通用 Agent 支援：用 Warp 增強任意 coding agent"
+
+    see_whats_new: "檢視新功能"
+
+    vertical_tabs_title: "垂直分頁"
+
+    vertical_tabs_description: "豐富的分頁標題和後設資料，例如 git 分支、worktree 和 PR。支援完全自定義。"
+
+    tab_configs_title: "分頁設定"
+
+    tab_configs_description: "分頁級 schema，可一鍵設定目錄、啟動命令、主題和 worktree"
+
+    agent_inbox_title: "Agent 收件箱"
+
+    agent_inbox_description: "當任意 Agent 需要你注意時傳送通知，也可以在統一收件箱中檢視"
+
+    native_code_review_title: "原生程式碼審查"
+
+    native_code_review_description: "直接從 Warp 的程式碼審查向 Claude Code、Codex 或 OpenCode 傳送行內評論"
+
+    switch_back_horizontal_tabs: "切回水平分頁"
+
+    vertical_tabs_callout_title: "介紹垂直分頁 - 新預設佈局"
+
+    vertical_tabs_callout_description: "垂直分頁會顯示所有開啟的 Agent 和終端機面板，並按分頁分組。你可以自定義顯示的資訊來支援自己的工作流程。"
+
+    agent_inbox_callout_title: "認識新的 Agent 收件箱"
+
+    agent_inbox_callout_description_prefix: "Warp 會把任意 CLI coding agent 的通知匯入統一通知中心，跨所有 coding agent 和 harness 工作。"
+
+    create_first_tab_config: "建立你的第一個分頁設定"
+
+    tab_config_description: "設定可複用的分頁起點。選擇儲存庫、工作階段型別，並按需附加 worktree。以後想用這套設定開啟分頁時即可複用。"
+
+
+  orchestration_launch:
+    new_badge: "新功能"
+
+    title: "隨時隨地編排任意 Agent"
+
+    description: "我們大幅改進了 Warp 的雲端 Agent 編排平臺 Oz。"
+
+    learn_more: "瞭解更多"
+
+    cloud_title: "在雲端執行任意 Agent harness"
+
+    cloud_description: "使用 Oz 在雲端啟動 Claude Code 或 Codex Agent；Oz 會說明你跟蹤和引導這些 Agent。"
+
+    multi_agent_title: "多 Agent 編排"
+
+    multi_agent_description: "Warp Agents 現在可以編排成群的子 Agent，說明你並行處理任務。"
+
+    memory_title: "Agent 記憶"
+
+    memory_description: "Agents 現在可以儲存並訪問長期記憶，隨著時間自我改進。"
+
+    research_preview: "研究預覽"
+
+
+  # ── 認證 ──
+  auth:
+    loading: "正在載入..."
+
+    web_handoff_failed: "認證出錯，請重新整理頁面"
+
+    log_out_confirm: "確定登出？"
+
+    show_running_processes: "顯示執行中的程序"
+
+    new_login_detected: "檢測到新登入"
+
+    login_override_description: "你似乎透過網頁瀏覽器登入了 Warp 賬號。如果繼續，此匿名工作階段中的個人 Warp Drive 物件和偏好設定將被永久刪除。"
+
+    delete_personal_data: "刪除個人 Warp Drive 物件和偏好設定？"
+
+    import_later_suffix: " 以便稍後匯入。"
+
+    cannot_be_undone: "此操作無法復原。"
+
+    auth_token: "Auth Token"
+
+    browser_auth_token: "瀏覽器認證 token"
+
+    enter_auth_token: "輸入認證 token"
+
+    export_your_data: "匯出資料"
+
+    disable_warp_drive: "禁用 Warp 雲端硬碟"
+
+    disable_ai_features: "禁用 AI 功能"
+
+    enable_warp_drive: "啟用 Warp 雲端硬碟"
+
+    enable_ai_features: "啟用 AI 功能"
+
+    help_improve_warp: "說明改進 Warp"
+
+    login_troubleshooting_prefix: " 不是第一次遇到？請檢視我們的"
+
+    troubleshooting_docs: "故障排查檔案"
+
+    invalid_auth_token_entered: "輸入到彈窗中的認證 token 無效。"
+
+    failed_login_copy_token: "登入失敗。請嘗試從認證網頁手動複製認證 token，並貼上到彈窗中。"
+
+    login_request_failed: "登入請求失敗。"
+
+    signup_request_failed: "註冊請求失敗。"
+
+    redirect_url_not_from_app: "貼上的重定向 URL 不是來自此應用。請點選下方按鈕重試。"
+
+    paste_token_from_browser: "點選這裡貼上瀏覽器中的 token"
+
+    continuing_agree_prefix: "繼續即表示你同意 Warp 的"
+
+    terms_of_service: "服務條款"
+
+    privacy_settings: "隱私設定"
+
+    back: "返回"
+
+    done: "完成"
+
+    privacy_disclaimer_analytics_ai: "如果你想選擇退出分析和 AI 功能，可以調整你的"
+
+    privacy_disclaimer_analytics: "如果你想選擇退出分析，可以調整你的"
+
+    get_started_warp_drive: "開始使用 Warp Drive"
+
+    get_started_ai: "開始使用 AI"
+
+    connect_account_drive: "連線賬號，以便跨裝置儲存並共享 notebooks、workflows 等內容。"
+
+    connect_account_ai: "連線賬號以啟用 AI 驅動的規劃、編碼和自動化。"
+
+    offline_first_run_required: "你當前處於離線狀態。首次使用 Warp 需要連線網際網路。"
+
+    using_warp_offline: "離線使用 Warp"
+
+    offline_info_non_cloud: "Warp 的所有非雲端功能都可以離線使用。"
+
+    offline_info_first_run: "不過，首次使用 Warp 時需要線上，以便啟用 Warp 的 AI 和雲端功能。"
+
+    offline_info_cloud_reason: "我們向所有使用者提供雲端功能，因此需要連線網際網路來計量 AI 用量、防止濫用，並將雲端物件關聯到使用者。如果你選擇未登入使用 Warp，會有一個唯一 ID 附加到匿名使用者賬號，以支援這些功能。"
+
+    telemetry_description: "高階功能使用資料可以說明 Warp 產品團隊確定路線圖優先順序。"
+
+    send_crash_reports: "傳送崩潰報告"
+
+    crash_reporting_description: "崩潰報告可以說明 Warp 工程團隊瞭解穩定性並改進效能。"
+
+    store_ai_conversations_cloud: "在雲端儲存 AI 工作階段"
+
+    cloud_conversations_enabled_description: "Agent 工作階段可以與他人共享，並在你登入不同裝置時保留。這些資料僅為產品功能而儲存，Warp 不會將其用於分析。"
+
+    cloud_conversations_disabled_description: "Agent 工作階段只會儲存在你的本機，登出後會丟失，且無法共享。注意：Ambient Agent 的工作階段資料仍會儲存在雲端。"
+
+    disable_warp_drive_confirm_title: "確定要禁用 Warp Drive？"
+
+    disable_ai_features_confirm_title: "確定要禁用 AI 功能？"
+
+    disable_warp_drive_confirm_body: "Warp Drive 可讓你跨裝置儲存 workflows 和知識，並與團隊共享。繼續後，你將無法使用以下功能："
+
+    disable_ai_features_confirm_body: "有 AI 的 Warp 體驗更好。繼續後，你將無法使用以下任何功能："
+
+    opt_out_analytics_ai: "如果你想選擇退出分析和 AI 功能，"
+
+    adjust_your_prefix: "可以調整你的"
+
+    already_have_account: "已有賬號？"
+
+    sign_in: "登入"
+
+    dont_want_sign_in_now: "現在不想登入？"
+
+    skip_for_now: "暫時跳過"
+
+    skip_login_confirm_title: "確定要跳過登入嗎？"
+
+    skip_login_confirm_body_1: "你可以稍後註冊，但某些功能（例如 AI）"
+
+    skip_login_confirm_body_2: "僅對已登入使用者可用。"
+
+    yes_skip_login: "是，跳過登入"
+
+    require_login_ai_collab: "要使用 Warp 的 AI 功能或與他人協作，請先建立賬號。"
+
+    require_login_drive_limit: "要在 Warp Drive 中建立更多物件，請先建立賬號。"
+
+    require_login_share: "要共享內容，請先建立賬號。"
+
+    welcome_to_warp: "歡迎使用 Warp！"
+
+    sign_up_for_warp: "註冊 Warp"
+
+    sign_in_browser_to_continue: "在瀏覽器中登入\n以繼續"
+
+    browser_not_launched_prefix: "如果瀏覽器沒有啟動，"
+
+    copy_the_url: "複製 URL"
+
+    open_page_manually: "並手動開啟頁面。"
+
+    accessibility_open_browser: "按 Enter 開啟瀏覽器註冊或登入。"
+
+    sso_enabled_for_account: "你的組織已為你的賬號啟用 SSO"
+
+    link_sso_detail: "點選下方按鈕，將你的 Warp 賬號關聯到 SSO 提供商。"
+
+    link_sso: "關聯 SSO"
+
+
+  # ── 賬單 ──
+  billing:
+    shared_object_limit_reached: "共享物件數量已達上限"
+
+    shared_objects_restricted: "共享{object_type}已受限"
+
+    shared_objects_limit_reached: "共享{object_type}數量已達上限"
+
+    shared_objects_payment_restricted_admin: "由於訂閱付款問題，共享{object_type}已受限。\n\n請更新付款資訊以恢復訪問。"
+
+    shared_objects_payment_restricted_enterprise: "由於訂閱付款問題，共享{object_type}已受限。\n\n請聯絡 support@warp.dev 恢復訪問。"
+
+    shared_objects_payment_restricted_member: "由於訂閱付款問題，共享{object_type}已受限。\n\n請聯絡團隊管理員恢復訪問。"
+
+    shared_objects_pro_limit_admin: "Warp Pro 計劃包含有限數量的共享{object_type}。\n\n若要無限使用共享{object_type}，請升級到 Build 計劃。"
+
+    shared_objects_pro_limit_member: "Warp Pro 計劃包含有限數量的共享{object_type}。\n\n若要無限使用共享{object_type}，請聯絡團隊管理員升級到 Build 計劃。"
+
+    shared_objects_free_limit_admin: "Warp 免費計劃包含有限數量的共享{object_type}。\n\n若要無限使用共享{object_type}，請升級到付費計劃。"
+
+    shared_objects_free_limit_member: "Warp 免費計劃包含有限數量的共享{object_type}。\n\n若要無限使用共享{object_type}，請聯絡團隊管理員升級到付費計劃。"
+
+    default_payment_restricted_admin: "由於訂閱付款問題，共享 Drive 物件已受限。\n\n請更新付款資訊以恢復訪問。"
+
+    default_payment_restricted_enterprise: "由於訂閱付款問題，共享 Drive 物件已受限。\n\n請聯絡 support@warp.dev 恢復訪問。"
+
+    default_payment_restricted_member: "由於訂閱付款問題，共享 Drive 物件已受限。\n\n請聯絡團隊管理員恢復訪問。"
+
+    default_pro_limit_admin: "Warp Pro 計劃包含有限數量的共享 Drive 物件。\n\n若要無限使用共享 Drive 物件，請升級到 Turbo 計劃。"
+
+    default_pro_limit_member: "Warp Pro 計劃包含有限數量的共享 Drive 物件。\n\n若要無限使用共享 Drive 物件，請聯絡團隊管理員升級到 Turbo 計劃。"
+
+    default_free_limit_admin: "Warp 免費計劃包含有限數量的共享 Drive 物件。\n\n若要無限使用共享 Drive 物件，請升級到付費計劃。"
+
+    default_free_limit_member: "Warp 免費計劃包含有限數量的共享 Drive 物件。\n\n若要無限使用共享 Drive 物件，請聯絡團隊管理員升級到付費計劃。"
+
+    compare_plans: "比較計劃"
+
+    manage_billing: "管理賬單"
+
+    overview: "概覽"
+
+    overage_spending_limit: "超額支出上限"
+
+    monthly_spending_limit: "每月支出上限"
+
+    purchase_addon_credits_success: "已成功購買附加額度"
+
+    failed_update_workspace_settings: "更新工作區設定失敗"
+
+    usage_history: "用量歷史"
+
+    view_overage_usage: "檢視超額用量詳情"
+
+    enable_premium_overages: "啟用高階模型超額用量"
+
+    premium_overages_enabled: "高階模型超額用量已啟用"
+
+    premium_overages_disabled: "高階模型超額用量未啟用"
+
+    overage_toggle_description: "繼續在套餐限制之外使用高階模型。用量會按 20 美元增量計費，最高不超過你的消費上限，剩餘餘額會在計劃賬單日收取。"
+
+    overage_toggle_user_description: "請聯絡團隊管理員啟用超額用量，以獲得更多 AI 用量。"
+
+    overage_limit_description: "達到此金額上限後，Warp 將阻止使用高階模型。該上限每月重置。"
+
+    overage_limit_note: "請注意，接近所選上限時產生的 AI 額度用量可能會超出幾美元。"
+
+    not_set: "未設定"
+
+    monthly_overage_spending_limit_tooltip: "設定超出計劃額度後的每月超額支出上限"
+
+    sort_a_to_z: "A 到 Z"
+
+    sort_z_to_a: "Z 到 A"
+
+    sort_usage_ascending: "用量升序"
+
+    sort_usage_descending: "用量降序"
+
+    cloud_agent_trial: "雲端 Agent 試用"
+
+    monthly_overage_spending_limit: "每月超額消費上限"
+
+    addon_credits: "附加額度"
+
+    addon_credits_description: "附加額度以預付包形式購買，會滾動到下一個賬單週期，並在一年後過期。購買越多，單額度價格越低。基礎套餐額度用完後，將消耗附加額度。"
+
+    addon_credits_team_description: "已購買的附加額度將在團隊內共享。"
+
+    switch_to_build_plan: "切換到 Build 計劃"
+
+    upgrade_to_build_plan: "升級到 Build 計劃"
+
+    purchase_addon_credits_suffix: "以購買附加額度。"
+
+    contact_account_executive_addon_credits: "請聯絡你的 Account Executive 獲取更多附加額度。"
+
+    contact_team_admin_addon_credits: "請聯絡團隊管理員購買附加額度。"
+
+    addon_monthly_spend_limit_tooltip: "設定每月用於附加額度的支出上限"
+
+    auto_reload: "自動充值"
+
+    auto_reload_description: "啟用後，當附加額度餘額降至 100 credits 時，自動充值會自動購買 {credits} credits。"
+
+    auto_reload_delinquent_warning: "因賬單問題受限。請更新付款方式以購買附加額度。"
+
+    auto_reload_exceed_limit_warning: "自動充值已停用，因為下一次充值會超過你的每月支出上限。請提高上限後再使用自動充值。"
+
+    auto_reload_failed_warning: "由於最近一次充值失敗，自動充值已停用。請更新付款方式後重試。"
+
+    usage_resets_on: "用量於 {date} 重置"
+
+    current_user_prorated_credit_limit: "你的額度上限已按比例折算，因為你是在賬單週期中途加入的。"
+
+    other_user_prorated_credit_limit: "此使用者的額度上限已按比例折算，因為該使用者是在賬單週期中途加入的。"
+
+    restricted_due_to_billing_issue: "因賬單問題受限"
+
+    credits: "額度"
+
+    ai_credit_limit_description: "這是你賬戶的 {duration} AI 額度上限。"
+
+    usage: "用量"
+
+    usage_resets: "{date} 重置"
+
+    team_total: "團隊總計"
+
+    purchased_this_month: "本月已購買"
+
+    total_overages: "超額總計"
+
+    last_30_days: "最近 30 天"
+
+    no_usage_history: "暫無用量歷史"
+
+    usage_history_empty: "啟動一個 Agent 任務後，可在這裡檢視用量歷史。"
+
+    enterprise_usage_limited: "用量報告當前受限"
+
+    enterprise_usage_admin_prefix: "企業額度用量尚未完全展示在此檢視中。若需最準確的消費跟蹤，請"
+
+    visit_admin_panel: "訪問管理後臺"
+
+    enterprise_usage_non_admin: "企業額度用量尚未完全展示在此檢視中。請聯絡團隊管理員獲取詳細用量報告。"
+
+    plan: "套餐"
+
+    reload_exceeds_monthly_limit: "重新充值會超過你的每月上限。"
+
+    increase_your_limit: "提高上限"
+
+    to_continue: "後繼續。"
+
+    regain_ai_access_suffix: "以重新獲得 AI 功能訪問許可權。"
+
+    contact_admin_resolve_billing: "請聯絡你的團隊管理員解決賬單問題。"
+
+    model_unavailable_free_users: "{display_name} 不對免費使用者開放。"
+
+    switch_to_build_plan: "切換到 Build 套餐"
+
+    upgrade_to_build_plan: "升級到 Build 套餐"
+
+    flexible_pricing_suffix: "以使用更靈活的定價模式。"
+
+    or_separator: " 或 "
+
+    bring_your_own_key: "自帶 key"
+
+    increased_ai_access_suffix: "以獲得更多 AI 功能訪問許可權。"
+
+    upgrade: "升級"
+
+    upgrade_to_turbo: "升級到 Turbo 計劃"
+
+    upgrade_to_lightspeed: "升級到 Lightspeed 計劃"
+
+    to_get_more_ai_usage: "以獲得更多 AI 用量。"
+
+    upgrade_to_max: "升級到 Max"
+
+    for_more_ai_credits: "以獲得更多 AI credits。"
+
+    switch_to_business: "切換到 Business"
+
+    business_security_suffix: "以獲得 SSO 和自動應用零資料保留等安全功能。"
+
+    upgrade_to_enterprise: "升級到 Enterprise"
+
+    enterprise_limits_suffix: "以獲得自定義限制和專屬支援。"
+
+    contact_support: "聯絡支援"
+
+    for_more_ai_usage: "以獲得更多 AI 用量。"
+
+    more_credits_models_suffix: "以獲得更多 credits 並訪問更多模型。"
+
+
+  teams:
+    team_name: "團隊名稱"
+
+    create_team_description: "建立團隊後，你可以透過共享雲端 Agent 執行、環境、自動化和產物，協作完成 Agent 驅動開發。你還可以為隊友和 Agent 建立共享知識庫。"
+
+    leave_team: "離開團隊"
+
+    delete_team: "刪除團隊"
+
+    create: "建立"
+
+    domains_placeholder: "域名，用逗號分隔"
+
+    emails_placeholder: "郵箱，用逗號分隔"
+
+    set: "設定"
+
+    invite: "邀請"
+
+    create_team: "建立團隊"
+
+    new_team_name_placeholder: "你的新團隊名稱"
+
+    offline: "你當前離線。"
+
+    member_limit_admin: "你已達到當前計劃的團隊成員上限。升級以新增更多隊友。"
+
+    member_limit_admin_contact_support: "你已達到當前計劃的團隊成員上限。請聯絡 support@warp.dev 新增更多隊友。"
+
+    member_limit_non_admin: "你已達到當前計劃的團隊成員上限。請聯絡團隊管理員新增更多隊友。"
+
+    invites_restricted_admin_contact_support: "由於付款問題，團隊邀請已受限。請聯絡 support@warp.dev 恢復訪問。"
+
+    invites_restricted_non_admin: "由於付款問題，團隊邀請已受限。請聯絡團隊管理員恢復訪問。"
+
+    invites_restricted_subscription: "由於訂閱付款問題，團隊邀請已受限。"
+
+    please_prefix: "請"
+
+    update_payment_information: "更新付款資訊"
+
+    restore_access_suffix: "以恢復訪問。"
+
+    team_limit_exceeded_admin_contact_support: "你已超出當前計劃的團隊成員上限。請聯絡 support@warp.dev 升級團隊。"
+
+    team_limit_exceeded_non_admin: "你已超出當前計劃的團隊成員上限。請聯絡團隊管理員升級團隊。"
+
+    team_limit_exceeded_admin_upgradeable: "你已超出當前計劃的團隊成員上限。升級以新增更多隊友。"
+
+    contact_admin_request_access: "聯絡管理員請求訪問許可權"
+
+    join: "加入"
+
+    upgrade_to_build: "升級到 Build"
+
+    upgrade_to_turbo: "升級到 Turbo 計劃"
+
+    upgrade_to_lightspeed: "升級到 Lightspeed 計劃"
+
+    transfer_team_ownership_title: "轉移團隊所有權？"
+
+    failed_send_invite: "傳送邀請失敗"
+
+    toggled_invite_links: "已切換邀請連結"
+
+    failed_toggle_invite_links: "切換邀請連結失敗"
+
+    reset_invite_links: "已重置邀請連結"
+
+    failed_reset_invite_links: "重置邀請連結失敗"
+
+    deleted_invite: "已刪除邀請"
+
+    failed_delete_invite: "刪除邀請失敗"
+
+    failed_add_domain_restriction: "新增域名限制失敗"
+
+    failed_delete_domain_restriction: "刪除域名限制失敗"
+
+    failed_generate_upgrade_link: "生成升級連結失敗。請透過 feedback@warp.dev 聯絡我們"
+
+    failed_generate_billing_link: "生成賬單連結失敗。請透過 feedback@warp.dev 聯絡我們"
+
+    toggled_team_discoverability: "已切換團隊可發現性"
+
+    failed_toggle_team_discoverability: "切換團隊可發現性失敗"
+
+    successfully_joined_team: "已成功加入團隊"
+
+    successfully_joined_team_name: "已成功加入 {team}"
+
+    failed_join_team: "加入團隊失敗"
+
+    successfully_transferred_ownership: "已成功轉移團隊所有權"
+
+    failed_transfer_ownership: "轉移團隊所有權失敗"
+
+    successfully_updated_member_role: "已成功更新團隊成員角色"
+
+    failed_update_member_role: "更新團隊成員角色失敗"
+
+    error_leaving_team: "離開團隊時出錯"
+
+    successfully_left_team: "已成功離開團隊"
+
+    successfully_renamed_team: "已成功重新命名團隊"
+
+    failed_rename_team: "重新命名團隊失敗"
+
+    link_copied_to_clipboard: "連結已複製到剪貼簿！"
+
+    invalid_domains_count: "無效域名：{count}"
+
+    domain_restrictions_added: "已新增域名限制：{count}"
+
+    invalid_emails_count: "無效郵箱：{count}"
+
+    invite_on_the_way: "你的邀請正在傳送！"
+
+    invites_on_the_way: "你的 {count} 個邀請正在傳送！"
+
+    invite_link_toggle_instructions: "作為管理員，你可以選擇啟用或禁用團隊成員透過邀請連結邀請他人的能力。"
+
+    invite_link_domain_restrictions_instructions: "僅允許特定郵箱域名的使用者透過邀請連結加入你的團隊。"
+
+    invite_by_email_expiry_instructions: "郵件邀請有效期為 7 天。"
+
+    invalid_domains_instructions: "部分提供的域名無效，或已被新增。"
+
+    invalid_emails_instructions: "部分提供的郵箱地址無效、已被邀請或已經是團隊成員。"
+
+    cancel_invite: "取消邀請"
+
+    transfer_ownership: "轉移所有權"
+
+    transfer_ownership_confirmation: "確定要將團隊所有權轉移給 {email} 嗎？你將不再是所有者，也無法再對此團隊執行任何管理操作。"
+
+    demote_from_admin: "降級為普通成員"
+
+    promote_to_admin: "提升為管理員"
+
+    member_usage_charge_admin: "你將按團隊成員的 Warp 使用量支付一部分費用。"
+
+    member_usage_charge_non_admin: "你的管理員將按團隊成員的 Warp 使用量支付一部分費用。"
+
+    additional_members_cost_with_price: "額外成員將按你計劃的每使用者費率計費：${monthly}/月或 ${yearly}/年，具體取決於你的賬單週期。{prorated}"
+
+    additional_members_cost: "額外成員將按你計劃的每使用者費率計費。{prorated}"
+
+    past_due: "逾期"
+
+    unpaid: "未支付"
+
+    open_admin_panel: "開啟管理員面板"
+
+    free_plan_usage_limits: "Free 計劃使用限制"
+
+    plan_usage_limits: "計劃使用限制"
+
+    shared_notebooks: "共享 Notebooks"
+
+    shared_workflows: "共享 Workflows"
+
+    team_members: "團隊成員"
+
+    invite_by_link: "透過連結邀請"
+
+    reset_links: "重置連結"
+
+    invite_by_email: "透過郵箱邀請"
+
+    restrict_by_domain: "按域名限制"
+
+    remove_domain: "移除域名"
+
+    make_team_discoverable: "允許發現團隊"
+
+    team_discoverability_domain: "允許使用 @{domain} 郵箱的 Warp 使用者找到並加入此團隊。"
+
+    manage_plan: "管理計劃"
+
+    expired: "已過期"
+
+    pending: "待處理"
+
+    owner: "所有者"
+
+    admin: "管理員"
+
+    title: "團隊"
+
+    create_team: "建立團隊"
+
+    team_discoverability_same_domain: "允許與你郵箱域名相同的 Warp 使用者找到並加入此團隊。"
+
+    join_existing_company_team: "或者，加入公司內已有團隊"
+
+    one_teammate: "1 位隊友"
+
+    teammates_count: "{count} 位隊友"
+
+    join_team_collaboration_description: "加入此團隊，開始協作使用 workflows、notebooks 等內容。"
+
+    invite_option_link: "連結"
+
+    invite_option_email: "郵箱"
+
+    failed_load_invite_link: "邀請連結載入失敗。"
+
+
+  features:
+    default: "預設"
+
+    custom: "自定義"
+
+    advanced: "高階"
+
+    category_general: "通用"
+
+    category_session: "工作階段"
+
+    category_keys: "按鍵"
+
+    category_text_editing: "文字編輯"
+
+    category_terminal_input: "終端機輸入"
+
+    category_terminal: "終端機"
+
+    category_notifications: "通知"
+
+    category_workflows: "工作流程"
+
+    category_system: "系統"
+
+    pin_to_top: "固定到頂部"
+
+    pin_to_bottom: "固定到底部"
+
+    pin_to_left: "固定到左側"
+
+    pin_to_right: "固定到右側"
+
+    after_all_tabs: "所有分頁之後"
+
+    after_current_tab: "當前分頁之後"
+
+    open_links_desktop_app: "在桌面應用中開啟連結"
+
+    open_links_desktop_app_description: "儘可能自動在桌面應用中開啟連結。"
+
+    restore_windows_on_startup: "啟動時恢復視窗、分頁和麵板"
+
+    see_docs: "檢視檔案。"
+
+    show_sticky_command_header: "顯示粘性命令標題"
+
+    show_tooltip_on_links: "點選連結時顯示 tooltip"
+
+    show_warning_before_quitting: "退出/登出前顯示警告"
+
+    start_warp_at_login: "登入時啟動 Warp"
+
+    start_warp_at_login_macos: "登入時啟動 Warp（需要 macOS 13+）"
+
+    quit_when_all_windows_closed: "所有視窗關閉時退出"
+
+    show_changelog_after_updates: "更新後顯示 changelog toast"
+
+    lines_scrolled_by_mouse_wheel: "滑鼠滾輪每次滾動的行數"
+
+    floating_values_1_to_20: "支援 1 到 20 之間的浮點值。"
+
+    make_warp_default_terminal: "將 Warp 設為預設終端機"
+
+    maximum_rows_in_block: "Block 最大行數"
+
+    max_rows_10_million: "1000 萬"
+
+    max_rows_1_million: "100 萬"
+
+    block_maximum_rows_description: "將限制設定為超過 10 萬行可能影響效能。支援的最大行數為 {max_rows}。"
+
+    warp_ssh_wrapper: "Warp SSH Wrapper"
+
+    change_takes_effect_new_sessions: "此更改將在新工作階段中生效"
+
+    receive_desktop_notifications: "接收 Warp 桌面通知"
+
+    notify_agent_task_completed: "Agent 完成任務時通知"
+
+    notify_needs_attention: "命令或 Agent 需要你注意才能繼續時通知"
+
+    play_notification_sounds: "播放通知聲音"
+
+    show_in_app_agent_notifications: "顯示應用內 Agent 通知"
+
+    default_shell_new_sessions: "新工作階段的預設 shell"
+
+    working_directory_new_sessions: "新工作階段的工作目錄"
+
+    confirm_close_shared_session: "關閉共享工作階段前確認"
+
+    global_hotkey_label: "全域性熱鍵："
+
+    autocomplete_symbols: "自動補全引號、括號和方括號"
+
+    error_underlining_commands: "為命令顯示錯誤下劃線"
+
+    syntax_highlighting_commands: "為命令啟用語法高亮"
+
+    open_completions_menu_typing: "輸入時開啟補全選單"
+
+    suggest_corrected_commands: "建議修正後的命令"
+
+    expand_aliases_typing: "輸入時展開 aliases"
+
+    middle_click_to_paste: "中鍵點選貼上"
+
+    vim_keybindings: "使用 Vim 鍵位編輯程式碼和命令"
+
+    vim_unnamed_register_clipboard: "將 unnamed register 設為系統剪貼簿"
+
+    show_vim_status_bar: "顯示 Vim 狀態列"
+
+    enable_at_context_menu_terminal: "在終端機模式啟用 '@' 上下文選單"
+
+    enable_slash_commands_terminal: "在終端機模式啟用 slash commands"
+
+    outline_codebase_symbols_at_menu: "為 '@' 上下文選單展示程式碼庫符號大綱"
+
+    show_terminal_input_message_line: "顯示終端機輸入訊息行"
+
+    show_autosuggestion_keybinding_hint: "顯示自動建議快捷鍵提示"
+
+    show_autosuggestion_ignore_button: "顯示忽略自動建議按鈕"
+
+    right_arrow_accepts_autosuggestions: "→ 接受自動建議。"
+
+    key_accepts_autosuggestions: "{key} 接受自動建議。"
+
+    completions_open_as_you_type: "輸入時會開啟補全。"
+
+    completions_open_as_you_type_or: "輸入時會開啟補全（或按 {key}）。"
+
+    opening_completion_menu_unbound: "開啟補全選單未繫結快捷鍵。"
+
+    key_opens_completion_menu: "{key} 開啟補全選單。"
+
+    accept_autosuggestion: "接受自動建議"
+
+    open_completions_menu: "開啟補全選單"
+
+    ctrl_tab_behavior_label: "Ctrl+Tab 行為："
+
+    enable_mouse_reporting: "啟用滑鼠報告"
+
+    enable_scroll_reporting: "啟用滾動報告"
+
+    enable_focus_reporting: "啟用焦點報告"
+
+    use_audible_bell: "使用聲音鈴"
+
+    graphics_default: "預設"
+
+    active_screen: "活動螢幕"
+
+    double_click_smart_selection: "雙擊智慧選擇"
+
+    show_help_block_new_sessions: "在新工作階段中顯示說明區塊"
+
+    copy_on_select: "選擇時複製"
+
+    new_tab_placement: "新分頁位置"
+
+    default_mode_new_sessions: "新工作階段的預設模式"
+
+    show_global_workflows_command_search: "在命令搜尋中顯示全域性 Workflows（ctrl-r）"
+
+    honor_linux_selection_clipboard: "遵循 Linux selection clipboard"
+
+    linux_selection_clipboard_description: "是否支援 Linux primary clipboard。"
+
+    prefer_integrated_gpu: "新視窗優先使用整合 GPU 渲染（低功耗）"
+
+    use_wayland_window_management: "使用 Wayland 管理視窗"
+
+    use_wayland_tooltip: "啟用 Wayland"
+
+    use_wayland_description: "啟用此設定會禁用全域性熱鍵支援。禁用時，如果你的 Wayland compositor 使用 fractional scaling（例如 125%），文字可能會模糊。"
+
+    restart_warp_changes: "重啟 Warp 後更改生效。"
+
+    preferred_graphics_backend: "首選圖形後端"
+
+    current_graphics_backend: "當前後端：{backend}"
+
+    width_percent: "寬度 %"
+
+    height_percent: "高度 %"
+
+    command_takes_longer_than: "當命令執行超過"
+
+    seconds_to_complete: "秒後"
+
+    press_new_keyboard_shortcut: "按下新的鍵盤快捷鍵"
+
+    change_keybinding: "更改快捷鍵"
+
+    group_files_single_editor_pane: "將檔案分組到單個編輯器面板"
+
+    group_files_single_editor_pane_description: "啟用後，同一分頁中開啟的任何檔案都會自動分組到單個編輯器面板。"
+
+    default_app: "預設應用"
+
+    choose_editor_open_file_links: "選擇用於開啟檔案連結的編輯器"
+
+    choose_editor_open_code_panel_files: "選擇用於開啟程式碼審查面板、專案瀏覽器和全域性搜尋中檔案的編輯器"
+
+    choose_layout_open_files: "選擇在 Warp 中開啟檔案的佈局"
+
+    open_markdown_in_viewer: "預設在 Warp Markdown Viewer 中開啟 Markdown 檔案"
+
+    enable_reopen_closed_sessions: "允許重新開啟已關閉的工作階段"
+
+    grace_period_seconds: "寬限期（秒）"
+
+    window_positions_wayland: "Wayland 上不會恢復視窗位置。"
+
+    allowed_values_1_to_20: "允許值：1-20"
+
+    warp_is_default_terminal: "Warp 是預設終端機"
+
+    toast_notifications_stay_visible_for: "Toast 通知保持可見"
+
+    changes_apply_to_new_windows: "更改將應用於新視窗。"
+
+
+  environments:
+    title: "環境"
+
+    description: "環境定義 Ambient Agent 的執行位置。可透過 GitHub（推薦）、Warp 輔助設定或手動設定，在幾分鐘內完成設定。"
+
+    environment_name: "環境名稱"
+
+    docker_image_placeholder: "例如 python:3.11、node:20-alpine"
+
+    setup_commands_placeholder: "例如 cd my-repo && pip install -r requirements.txt"
+
+    repos_placeholder_authed: "輸入儲存庫（owner/repo 格式）"
+
+    repos_placeholder_unauthed: "貼上儲存庫 URL"
+
+    share_with_team: "與團隊共享"
+
+    setup_commands_help: "設定命令會獨立執行。每條命令都從工作區根目錄（/workspace）執行。如果某條命令依賴上一條命令，請用 && 合併。"
+
+    repos: "儲存庫"
+
+    auth_with_github: "使用 GitHub 授權"
+
+    repo_helper: "輸入 owner/repo 並按 Enter 新增，或從下拉選單中選擇。"
+
+    missing_repo: "缺少儲存庫？"
+
+    configure_access_on_github: "在 GitHub 上設定訪問許可權"
+
+    no_repositories_found: "未找到儲存庫"
+
+    no_repos_selected: "尚未選擇儲存庫"
+
+    all_indexed_repos_selected: "所有本地已索引儲存庫都已選擇。"
+
+    selected_folder_not_git_repo: "所選資料夾不是 Git 儲存庫：{path}"
+
+    new_environment: "新建環境"
+
+    no_matches: "沒有匹配搜尋的環境。"
+
+    empty_title: "你還沒有設定任何環境。"
+
+    empty_subtitle: "選擇環境設定方式："
+
+    search_placeholder: "搜尋環境..."
+
+    last_edited: "上次編輯：{value}"
+
+    last_used: "上次使用：{value}"
+
+    last_used_never: "上次使用：從未"
+
+    updated_success: "環境已成功更新"
+
+    created_success: "環境已成功建立"
+
+    deleted_success: "環境已成功刪除"
+
+    shared_success: "環境已成功共享"
+
+    share_failed: "與團隊共享環境失敗"
+
+    unable_create_not_logged_in: "無法建立環境：未登入。"
+
+    unable_save_no_longer_exists: "無法儲存：環境已不存在。"
+
+    unable_share_not_on_team: "無法共享環境：你當前不在團隊中。"
+
+    unable_share_not_synced: "無法共享環境：環境尚未同步。"
+
+    shared_by_warp_and_team: "由 Warp 和 {team} 共享"
+
+    shared_by_warp_and_your_team: "由 Warp 和你的團隊共享"
+
+    authorize: "授權"
+
+    launch_agent: "啟動 Agent"
+
+    quick_setup: "快速設定"
+
+    quick_setup_subtitle: "選擇你想使用的 GitHub 儲存庫，我們會建議基礎映象和設定"
+
+    use_the_agent: "使用 Agent"
+
+    use_the_agent_subtitle: "選擇一個已在本地設定好的專案，我們會幫你基於它設定環境"
+
+    view_my_runs: "檢視我的執行"
+
+    env_id: "環境 ID：{id}"
+
+    image_detail: "映象：{image}"
+
+    repos_detail: "儲存庫：{repos}"
+
+    setup_commands_detail: "設定命令：{commands}"
+
+    create_environment: "建立環境"
+
+    save_environment: "儲存環境"
+
+    edit_environment: "編輯環境"
+
+    personal_not_for_integrations: "個人環境不能用於外部整合或團隊 API keys。為獲得最佳體驗，請使用共享環境。"
+
+    setup_commands: "設定命令"
+
+    docker_image_reference: "Docker 映象引用"
+
+    generating: "正在生成…"
+
+    suggest_image: "建議映象"
+
+    suggest_image_tooltip: "Warp 會根據你選擇的儲存庫建議 Docker 映象。"
+
+    authenticate: "認證"
+
+    failed_load_github_repos_error: "載入 GitHub 儲存庫失敗：{error}"
+
+    failed_suggest_docker_error: "建議 Docker 映象失敗：{error}"
+
+    character_count: "{count} / {max} 個字元"
+
+    open_image_at: "開啟映象：{url}"
+
+    suggest_image_github_auth_required: "你需要授予 GitHub 儲存庫訪問許可權，才能建議 Docker 映象"
+
+    suggest_image_no_match: "我們找不到合適匹配。建議為這些儲存庫使用自定義 Docker 映象。"
+
+
+  themes:
+    title: "主題"
+
+    change_current_theme: "更改當前主題。"
+
+    pick_light_theme: "選擇系統淺色模式下使用的主題。"
+
+    pick_dark_theme: "選擇系統深色模式下使用的主題。"
+
+    no_matching_themes: "沒有匹配的主題！"
+
+    auto_generate_theme_description: "根據圖片（.png、.jpg）中提取的顏色自動生成主題。"
+
+    select_image: "選擇圖片"
+
+    selecting_image: "正在選擇圖片..."
+
+    select_new_image: "選擇新圖片"
+
+    create_theme: "建立主題"
+
+    theme_name: "主題名稱"
+
+    background_color: "背景顏色"
+
+    create_new_theme_from_image: "從圖片建立新主題"
+
+    delete_theme_description: "這將永久刪除該主題。"
+
+    delete_theme: "刪除主題"
+
+    delete_theme_confirm_title: "確定要刪除這個主題嗎？"
+
+
+  node:
+    install_nvm_title: "安裝 nvm 以啟用版本切換"
+
+    install_nvm_description: "此選單可說明你在 Node.js 版本之間切換，但需要先安裝 nvm。"
+
+    install_nvm: "安裝 nvm"
+
+    nvm_install_node: "nvm install node"
+
+    no_versions_installed: "未安裝 Node 版本"
+
+    try_installing_with_nvm: "嘗試使用 nvm 安裝版本"
+
+    installed: "已安裝"
+
+
+  input_suggestions:
+    ignore_this_suggestion: "忽略此建議"
+
+
+  pane_group:
+    default_shell_unsupported: "Warp 當前不支援你的預設 shell，將回退到 zsh。"
+
+    new_tab: "新建分頁"
+
+    get_started: "開始使用"
+
+    welcome_to_warp: "歡迎使用 Warp"
+
+    agentic_development_environment: "Agentic 開發環境"
+
+
+  tab_configs:
+    session_type: "工作階段型別"
+
+    open_tab: "開啟分頁"
+
+    worktree_branch_placeholder: "my-feature-branch"
+
+    remove_confirm_title: "移除“{name}”？"
+
+    remove_confirm_body: "此分頁設定將被永久刪除。此操作無法復原。"
+
+
+  tips:
+    skip_welcome_tips: "跳過歡迎提示"
+
+    complete: "完成！"
+
+    welcome_tips_complete_description: "歡迎提示已全部完成，做得不錯！"
+
+    close_welcome_tips: "關閉歡迎提示"
+
+
+  auto_reload:
+    enable_auto_reload_title: "啟用自動充值？"
+
+    when_enabled_prefix: "啟用後，"
+
+    auto_reload: "自動充值"
+
+    purchase_selected_package_suffix: "會在額度用盡時自動購買你選擇的套餐。"
+
+
+  resource_center:
+    docs: "檔案"
+
+    slack: "Slack"
+
+    feedback: "反饋"
+
+    keybindings_essentials: "基礎"
+
+    keybindings_blocks: "區塊"
+
+    keybindings_input_editor: "輸入編輯器"
+
+    keybindings_terminal: "終端機"
+
+    keybindings_fundamentals: "通用操作"
+
+    whats_new: "最新內容"
+
+    getting_started: "開始使用"
+
+    maximize_warp: "高效使用 Warp"
+
+    advanced_setup: "高階設定"
+
+
+  ai_context_menu:
+    files_and_folders: "檔案和資料夾"
+
+    commands: "命令"
+
+    blocks: "區塊"
+
+    workflows: "工作流程"
+
+    notebooks: "Notebooks"
+
+    plans: "計劃"
+
+    diffs: "Diff"
+
+    docs: "檔案"
+
+    past_tasks: "歷史任務"
+
+    rules: "規則"
+
+    servers_and_integrations: "伺服器和整合"
+
+    terminal: "終端機"
+
+    web: "網頁"
+
+    most_recent_diff: "最近的 diff"
+
+    most_recent_block: "最近的區塊"
+
+    code: "程式碼"
+
+    diff_sets: "Diff 集"
+
+    conversations: "工作階段"
+
+    skills: "Skills"
+
+
+  quit_warning:
+    scope_this_tab: "，位於此分頁中"
+
+    scope_this_window: "，位於此視窗中"
+
+    scope_this_pane: "，位於此面板中"
+
+    process_singular: "程序"
+
+    process_plural: "程序"
+
+    session_singular: "工作階段"
+
+    session_plural: "工作階段"
+
+    running_processes: "你有 {count} 個{process}正在執行{location}{scope}。"
+
+    running_processes_windows_location: "，分佈在 {count} 個視窗中"
+
+    running_processes_tabs_location: "，分佈在 {count} 個分頁中"
+
+    sharing_sessions: "你正在共享 {count} 個{session}{scope}。"
+
+    this_file: "此檔案"
+
+    unsaved_editor_file: "要儲存你對 {file} 所做的更改嗎？如果不儲存，你的更改將被丟棄。"
+
+    unsaved_file_changes: "你有未儲存的檔案更改{scope}。"
+
+    yes_close: "是，關閉"
+
+    yes_quit: "是，退出"
+
+    dont_save: "不儲存"
+
+    show_running_processes: "顯示執行中的程序"
+
+    close_pane_title: "關閉面板？"
+
+    close_tab_title: "關閉分頁？"
+
+    close_tabs_title: "關閉分頁？"
+
+    close_window_title: "關閉視窗？"
+
+    quit_warp_title: "退出 Warp？"
+
+    save_changes_title: "儲存更改？"
+
+
+  env_vars:
+    education_text: "新增金鑰或命令。Warp 永遠不會儲存外部金鑰"
+
+    invoke_error: "嘗試呼叫環境變數時出錯"
+
+    restore_from_trash: "從廢紙簍恢復環境變數"
+
+    secret_command: "金鑰命令"
+
+    title: "標題"
+
+    name: "名稱"
+
+    command: "命令"
+
+    value: "值"
+
+    description: "描述"
+
+    variable: "變數"
+
+    variables: "變數"
+
+    restore: "恢復"
+
+
+  prompt:
+    edit_prompt: "編輯提示詞"
+
+    warp_terminal_prompt: "Warp 終端機提示字元"
+
+    shell_prompt: "Shell 提示字元 (PS1)"
+
+    same_line_prompt: "單行提示字元"
+
+    separator: "分隔符"
+
+    save_changes: "儲存更改"
+
+    restore_default: "恢復預設"
+
+
+  appearance:
+    themes: "主題"
+
+    icon: "圖示"
+
+    window: "視窗"
+
+    input: "輸入"
+
+    panes: "面板"
+
+    blocks: "Blocks"
+
+    text: "文字"
+
+    cursor: "游標"
+
+    tabs: "分頁"
+
+    full_screen_apps: "全屏應用"
+
+    directory_tab_colors: "目錄分頁顏色"
+
+    directory_tab_colors_description: "根據你所在的目錄或儲存庫自動為分頁著色。"
+
+    uniform_padding_px: "統一內邊距（px）"
+
+    restart_for_macos_icon_style: "可能需要重啟 Warp，MacOS 才會應用首選圖示樣式。"
+
+    add_directory: "+ 新增目錄…"
+
+    add_directory_color: "新增目錄顏色"
+
+    input_mode_pin_bottom: "固定到底部（Warp mode）"
+
+    input_mode_pin_top: "固定到頂部（Reverse mode）"
+
+    input_mode_start_top: "從頂部開始（Classic mode）"
+
+    on_low_dpi_displays: "在低 DPI 顯示器上"
+
+    on_high_dpi_displays: "在高 DPI 顯示器上"
+
+    always: "始終"
+
+    only_for_named_colors: "僅限命名顏色"
+
+    when_windowed: "視窗模式時"
+
+    only_on_hover: "僅懸停時"
+
+    right: "右側"
+
+    left: "左側"
+
+    create_custom_theme: "建立你自己的自定義主題"
+
+    light: "淺色"
+
+    dark: "深色"
+
+    current_theme: "當前主題"
+
+    sync_with_os: "跟隨 OS"
+
+    sync_with_os_description: "當系統切換時，自動在淺色和深色主題之間切換。"
+
+    customize_app_icon: "自定義應用圖示"
+
+    app_icon_bundle_warning: "更改應用圖示需要應用已打包。"
+
+    open_new_windows_custom_size: "以自定義大小開啟新視窗"
+
+    columns: "列"
+
+    rows: "行"
+
+    window_opacity: "視窗不透明度："
+
+    window_opacity_value: "視窗不透明度：{value}"
+
+    transparency_unsupported_graphics: "你的圖形驅動不支援透明效果。"
+
+    transparent_windows_graphics_settings_warning: "所選圖形設定可能不支援渲染透明視窗。"
+
+    transparent_windows_graphics_settings_suggestion: " 請嘗試在 Features > System 中更改圖形後端或整合 GPU 設定。"
+
+    window_blur_radius_value: "視窗模糊半徑：{value}"
+
+    use_window_blur: "使用視窗模糊（Acrylic texture）"
+
+    transparent_windows_hardware_warning: "所選硬體可能不支援渲染透明視窗。"
+
+    tools_panel_visibility_consistent: "工具面板可見性在分頁間保持一致"
+
+    input_type_warp: "Warp"
+
+    input_type_shell_ps1: "Shell (PS1)"
+
+    input_type: "輸入型別"
+
+    input_position: "輸入位置"
+
+    dim_inactive_panes: "調暗非活動面板"
+
+    focus_follows_mouse: "焦點跟隨滑鼠"
+
+    compact_mode: "精簡模式"
+
+    show_jump_to_bottom_button: "顯示 Jump to Bottom of Block 按鈕"
+
+    show_block_dividers: "顯示 block 分隔線"
+
+    agent_font: "Agent 字型"
+
+    terminal_font: "終端機字型"
+
+    use_thin_strokes: "使用細筆畫"
+
+    enforce_minimum_contrast: "強制最小對比度"
+
+    show_ligatures_terminal: "在終端機中顯示連字"
+
+    ligatures_performance_warning: "連字可能降低效能"
+
+    cursor_type: "游標型別"
+
+    blinking_cursor: "閃爍游標"
+
+    tab_close_button_position: "分頁關閉按鈕位置"
+
+    show_tab_indicators: "顯示分頁指示器"
+
+    show_code_review_button: "顯示程式碼審查按鈕"
+
+    preserve_active_tab_color: "新分頁保留活動分頁顏色"
+
+    use_vertical_tab_layout: "使用垂直分頁佈局"
+
+    show_vertical_tabs_panel_restored: "在恢復的視窗中顯示垂直分頁面板"
+
+    show_vertical_tabs_panel_restored_description: "啟用後，重新開啟或恢復視窗時會開啟垂直分頁面板，即使該視窗上次儲存時面板處於關閉狀態。"
+
+    use_latest_prompt_as_tab_title: "使用最新使用者提示詞作為分頁中的工作階段標題"
+
+    use_latest_prompt_as_tab_title_description: "在垂直分頁中，為 Oz 和第三方 Agent 工作階段顯示最新使用者提示詞，而不是生成的工作階段標題。"
+
+    header_toolbar_layout: "Header 工具欄佈局"
+
+    default_no_color: "預設（無顏色）"
+
+    show_tab_bar: "顯示分頁欄"
+
+    use_custom_padding_alt_screen: "在 alt-screen 中使用自定義內邊距"
+
+    zoom: "縮放"
+
+    zoom_description: "調整所有視窗的預設縮放級別"
+
+    start_input_at_top: "從頂部開始輸入"
+
+    pin_input_to_top: "將輸入框固定到頂部"
+
+    pin_input_to_bottom: "將輸入框固定到底部"
+
+    toggle_input_mode: "切換輸入模式（Warp/Classic）"
+
+    show_code_review_button_in_tab_bar: "在分頁欄中顯示程式碼審查按鈕"
+
+    hide_code_review_button_in_tab_bar: "在分頁欄中隱藏程式碼審查按鈕"
+
+    always_show_tab_bar: "始終顯示分頁欄"
+
+    hide_tab_bar_if_fullscreen: "全屏時隱藏分頁欄"
+
+    only_show_tab_bar_on_hover: "僅懸停時顯示分頁欄"
+
+
+  mcp:
+    title: "MCP Servers"
+
+    server_contains_secrets: "此 MCP server 包含金鑰。請前往設定 > 隱私修改金鑰遮蓋設定。"
+
+    no_server_specified: "未指定 MCP Server。"
+
+    cannot_add_multiple_while_editing: "編輯單個 server 時無法新增多個 MCP server。"
+
+    no_tools_available: "沒有可用工具"
+
+    view_logs: "檢視日誌"
+
+    edit_config: "編輯設定"
+
+    set_up: "設定"
+
+    install_server: "安裝 {server}"
+
+    list_description: "新增 MCP server 以擴充套件 Warp Agent 的能力。MCP server 透過標準化介面向 Agent 暴露資料來源或工具，本質上類似外掛。你可以新增自定義 server，或使用預設快速開始常見 server。這裡也會顯示與你共享的團隊 server。"
+
+    settings_description: "新增 MCP server 以擴充套件 Warp Agent 的能力。MCP server 透過標準化介面向 Agent 暴露資料來源或工具，本質上類似外掛。"
+
+    learn_more: "瞭解更多"
+
+    file_based_label: "從第三方 Agent 自動啟動 servers"
+
+    file_based_description_settings: "自動檢測並啟動全域性範圍第三方 AI Agent 設定檔案中的 MCP servers（例如 home 目錄中的設定）。儲存庫內檢測到的 servers 永遠不會自動啟動，必須在 MCP 設定頁中逐個啟用。"
+
+    file_based_description_list: "自動檢測並啟動全域性範圍第三方 AI Agent 設定檔案中的 MCP servers（例如 home 目錄中的設定）。儲存庫內檢測到的 servers 永遠不會自動啟動，必須在下方“檢測來源”分割槽中逐個啟用。"
+
+    see_supported_providers: "檢視支援的 providers。"
+
+    manage_servers: "管理 MCP servers"
+
+    empty_state: "新增 MCP server 後，它會顯示在這裡。"
+
+    no_search_results: "未找到搜尋結果"
+
+    no_server_selected: "未選擇 MCP server"
+
+    no_updates_available: "沒有可用更新"
+
+    search_mcp_servers: "搜尋 MCP Servers"
+
+    offline: "離線"
+
+    starting_server: "正在啟動 server..."
+
+    authenticating: "正在認證..."
+
+    shutting_down: "正在關閉..."
+
+    show_logs: "顯示日誌"
+
+    share_server: "共享 server"
+
+    server_update_available: "Server 有可用更新"
+
+    editing_restricted_to_admins_and_creator: "只有團隊管理員和 MCP server 建立者可以編輯該 MCP server。"
+
+    delete_mcp_server_title: "刪除 MCP server？"
+
+    delete_mcp_server_description: "這會從你的所有裝置解除安裝並移除此 MCP server。"
+
+    delete_shared_mcp_server_title: "刪除共享 MCP server？"
+
+    delete_shared_mcp_server_description: "這不僅會為你自己刪除此 MCP server，還會從 Warp 及所有隊友裝置中解除安裝並移除此 MCP server。"
+
+    delete_mcp: "刪除 MCP"
+
+    remove_shared_mcp_server_title: "從團隊移除共享 MCP server？"
+
+    remove_shared_mcp_server_description: "這會從 Warp 及所有隊友裝置中解除安裝並移除此 MCP server。"
+
+    available_to_install: "可安裝"
+
+    my_mcps: "我的 MCPs"
+
+    shared_by_warp_and_team: "由 Warp 和 {team} 共享"
+
+    shared_by_warp_and_other_devices: "由 Warp 和其他裝置共享"
+
+    shared_from_warp: "來自 Warp 的共享"
+
+    detected_from_provider: "檢測來源：{provider}"
+
+    detected_from_config_file: "從設定檔案檢測到"
+
+    shared_by_creator: "共享者：{creator}"
+
+    shared_by_team_member: "由團隊成員共享"
+
+    shared_from_team: "來自團隊共享"
+
+    from_another_device: "來自另一臺裝置"
+
+    logged_out_server_name: "已成功從 {name} MCP server 登出"
+
+    logged_out_server: "已成功從 MCP server 登出"
+
+    finish_current_install_before_link: "請先完成當前 MCP 安裝，再開啟其他安裝連結。"
+
+    unknown_server: "未知 MCP server：'{server}'"
+
+    server_cannot_install_from_link: "無法透過此連結安裝 MCP server '{server}'。"
+
+
+  platform:
+    api_key_deleted: "API key 已刪除"
+
+    oz_cloud_api_keys: "Oz Cloud API Keys"
+
+    no_api_keys: "沒有 API Keys"
+
+    new_api_key: "新建 API key"
+
+    save_your_key: "儲存你的 key"
+
+    name: "名稱"
+
+    key: "Key"
+
+    scope: "範圍"
+
+    created: "建立時間"
+
+    last_used: "上次使用"
+
+    expires_at: "過期時間"
+
+    create_key_description: "建立 key 以管理對 Warp 的外部訪問"
+
+    secret_key_once: "此金鑰只會顯示一次。請複製並安全儲存。"
+
+    no_agents_available: "沒有可用 Agent。請先建立一個。"
+
+    secret_key_copied: "金鑰已複製。"
+
+    api_keys_description_prefix: "建立並管理 API keys，讓其他 Oz 雲端 Agents 訪問你的 Warp 賬戶。\n如需瞭解更多資訊，請訪問"
+
+    documentation_link: "檔案。"
+
+
+  arguments:
+    add_workflow_argument: "新增工作流程引數"
+
+    value_optional: "值（可選）"
+
+    add_environment_variables: "新增環境變數"
+
+    fill_out_workflow_arguments: "填寫此工作流程的引數並複製，以便在終端機工作階段中執行"
+
+    environment_variables: "環境變數"
+
+
+  referrals:
+    header: "邀請朋友使用 Warp"
+
+    anonymous_header: "註冊以參與 Warp 推薦計劃"
+
+    failed_load_code: "載入推薦碼失敗。"
+
+    cta: "與朋友和同事分享 Warp，賺取獎勵"
+
+    current_referral: "當前推薦"
+
+    current_referrals: "當前推薦"
+
+    terms_link: "適用特定限制。"
+
+    terms_contact: " 如對推薦計劃有任何疑問，請聯絡 referrals@warp.dev。"
+
+    send: "傳送"
+
+    sending: "正在傳送..."
+
+    link_copied: "連結已複製。"
+
+    email_success: "郵件已成功傳送。"
+
+    email_failure: "郵件傳送失敗。請重試。"
+
+    email_empty: "請輸入郵箱。"
+
+    email_invalid: "請確認以下郵箱有效：{email}"
+
+    loading: "正在載入..."
+
+    link: "連結"
+
+    email: "郵箱"
+
+    reward_intro: "推薦他人即可獲得 Warp 專屬好禮*"
+
+    reward_exclusive_theme: "專屬主題"
+
+    reward_keycaps_stickers: "鍵帽 + 貼紙"
+
+    reward_tshirt: "T 恤"
+
+    reward_notebook: "筆記本"
+
+    reward_baseball_cap: "棒球帽"
+
+    reward_hoodie: "連帽衫"
+
+    reward_premium_hydro_flask: "高階 Hydro Flask 水瓶"
+
+    reward_backpack: "揹包"
+
+
+  keybindings:
+    search_placeholder: "按名稱或按鍵搜尋（例如 \"cmd d\"）"
+
+    shortcut_conflict_warning: "此快捷鍵與其他快捷鍵衝突"
+
+    default: "預設"
+
+    custom_keybindings_description: "為下方已有操作新增你自己的自定義快捷鍵。"
+
+    reference_shortcut_prefix: "使用"
+
+    reference_shortcut_suffix: "可隨時在側邊面板中檢視這些快捷鍵。"
+
+    not_synced_tooltip: "鍵盤快捷鍵不會同步到雲端"
+
+    configure_keyboard_shortcuts: "設定鍵盤快捷鍵"
+
+
+  telemetry_banner:
+    updated_policy: "我們已更新遙測政策。"
+
+    help_improve_warp: "說明改進 Warp。"
+
+    description: "我們可能會收集某些控制檯互動，用於改進 Warp 的 AI 能力。你可以隨時選擇退出。"
+
+    manage_privacy_settings: "管理隱私設定"
+
+
+  warpify:
+    title: "Warpify"
+
+    description: "設定 Warp 是否嘗試對特定 shell 進行“Warpify”（新增 blocks、input modes 等支援）。"
+
+    ssh_session_detection_for_warpification: "用於 Warpification 的 SSH 工作階段檢測"
+
+    subshells: "Subshells"
+
+    subshells_supported: "支援的 subshells：bash、zsh 和 fish。"
+
+    ssh_sessions_subtitle: "對你的互動式 SSH 工作階段進行 Warpify。"
+
+    ssh_tmux_warpification_description: "tmux ssh wrapper 在很多預設 wrapper 不適用的情況下可用，但可能需要你點選按鈕進行 warpify。對新分頁生效。"
+
+    ssh_extension_install_mode_description: "控制遠端主機未安裝 Warp SSH 擴充套件時的安裝行為。"
+
+    command_regex_placeholder: "命令（支援 regex）"
+
+    host_regex_placeholder: "主機（支援 regex）"
+
+    added_commands: "已新增的命令"
+
+    denylisted_commands: "Denylist 命令"
+
+    warpify_ssh_sessions: "Warpify SSH 工作階段"
+
+    install_ssh_extension: "安裝 SSH 擴充套件"
+
+    use_tmux_warpification: "使用 Tmux Warpification"
+
+    denylisted_hosts: "Denylist 主機"
+
+    always_ask: "始終詢問"
+
+    always_install: "始終安裝"
+
+    never_install: "永不安裝"
+
+    warpify_subshell: "Warpify 子 shell"
+
+    warpify_ssh_session: "Warpify SSH 工作階段"
+
+    do_not_show_again: "不再顯示"
+
+    enable_shell_integration: "在此工作階段中啟用 Warp shell integration"
+
+    use_agent: "使用 Agent"
+
+    ask_agent_to_assist: "讓 Warp Agent 協助"
+
+    give_control_back_to_agent: "將控制權交還給 Agent"
+
+    ask_agent_to_resume: "讓 Warp Agent 繼續"
+
+
+  wasm_nux:
+    open_in_desktop_title: "在 Warp Desktop 中開啟？"
+
+    future_links_desktop: "後續連結會自動在桌面端開啟。"
+
+    open_in_warp: "在 Warp 中開啟"
+
+    download_desktop_title: "下載 Warp Desktop？"
+
+    download_description: "Warp 是內建 AI 與開發團隊知識的智慧終端機。"
+
+    learn_more: "瞭解更多"
+
+    download: "下載"
+
+    always_open_drive_on_web: "始終在網頁端開啟 Warp Drive 物件？"
+
+    always_open_shared_sessions_on_web: "始終在網頁端開啟共享工作階段？"
+
+    always_open_links_on_web: "始終在網頁端開啟 Warp 連結？"
+
+    change_any_time: "你隨時可以在設定中更改此項。"
+
+
+  execution_profile:
+    models_heading: "模型"
+
+    permissions_heading: "許可權"
+
+    base_model: "基礎模型："
+
+    full_terminal_use: "完整終端機使用："
+
+    computer_use: "計算機使用："
+
+    apply_code_diffs: "應用程式碼 diff："
+
+    read_files: "讀取檔案："
+
+    execute_commands: "執行命令："
+
+    interact_with_running_commands: "與執行中的命令互動："
+
+    ask_questions: "提問："
+
+    call_mcp_servers: "呼叫 MCP servers："
+
+    call_web_tools: "呼叫 Web tools："
+
+    auto_sync_plans: "自動同步計劃到 Warp Drive："
+
+    directory_allowlist: "目錄 allowlist："
+
+    command_allowlist: "命令 allowlist："
+
+    command_denylist: "命令 denylist："
+
+    mcp_allowlist: "MCP allowlist："
+
+    mcp_denylist: "MCP denylist："
+
+    none: "無"
+
+    auto: "自動"
+
+    agent_decides: "Agent 決定"
+
+    always_allow: "始終允許"
+
+    always_ask: "始終詢問"
+
+    ask_on_first_write: "首次寫入時詢問"
+
+    allow_specific_directories: "允許指定目錄"
+
+    ask_unless_auto_approve: "除自動批准外詢問"
+
+    never: "從不"
+
+    never_ask: "從不詢問"
+
+    unknown: "未知"
+
+    enabled: "開啟"
+
+    disabled: "關閉"
+
+    command_allowlist_placeholder: "例如 ls .*"
+
+    command_denylist_placeholder: "例如 rm .*"
+
+    repo_path_placeholder: "例如 ~/code-repos/repo"
+
+    profile_name_placeholder: "例如 \"YOLO code\""
+
+    edit_profile: "編輯設定"
+
+    name: "名稱"
+
+    default_profile_name_cannot_be_changed: "預設設定名稱無法更改。"
+
+    profiles: "設定"
+
+    manage_profiles: "管理設定"
+
+    manage_defaults: "管理預設值"
+
+    choose_profile: "選擇 AI 執行設定"
+
+    choose_model: "選擇 Agent 模型"
+
+    auto_select_best_model: "自動為任務選擇最佳模型"
+
+    new_models_available: "有新模型可用"
+
+    manage_api_keys: "管理 API keys"
+
+    request_edit_access_change_model: "請求編輯許可權以更改模型"
+
+    intelligence: "智慧"
+
+    speed: "速度"
+
+    cost: "成本"
+
+    billed_to_api: "由 API 計費"
+
+    model_specs: "模型規格"
+
+    model_specs_description: "Warp 對模型在 harness 中的表現、credits 消耗速度和任務速度的 benchmark。"
+
+    auto_mode: "Auto 模式"
+
+    auto_mode_description: "Auto 會為任務選擇最佳模型。Cost-efficiency 最佳化成本，Responsiveness 最佳化響應速度。"
+
+    reasoning_level: "推理級別"
+
+    reasoning_level_description: "提高推理級別會消耗更多 credits 且延遲更高，但複雜任務表現更好。"
+
+
+  autoupdate:
+    run_package_manager_to_update: "執行 {package_manager_name} 更新"
+
+    installed_using_prefix: "如果你使用 "
+
+    installed_using_suffix: " 或相容工具安裝 Warp，預填命令會為你更新 Warp。"
+
+    repository_config_notice: "\n下面的命令包含一次性的 Warp package repository 和 PGP 簽名金鑰設定。"
+
+    dist_upgrade_prefix: "\n"
+
+    dist_upgrade_suffix: " 函式會確保 Warp package repository 已啟用，因為檢測到你最近升級了發行版。"
+
+    review_command_prefix: "\n檢查下面的命令，然後"
+
+    press_enter: "按 Enter"
+
+    install_relaunch_suffix: "安裝更新並重新啟動 Warp。  "
+
+    report_issues: "如有問題請報告"
+
+
+  workflows:
+    command_edited: "命令已編輯。"
+
+    to_cycle_parameters: "切換引數"
+
+    editing: "編輯中"
+
+    viewing: "檢視中"
+
+    default_alias: "預設"
+
+    add_alias: "新增別名"
+
+    aliases: "別名"
+
+    error_saving_aliases: "儲存別名時出錯"
+
+    save_contains_secrets: "此工作流程包含金鑰，無法儲存"
+
+    create_failed: "無法建立工作流程"
+
+    prompt_copied: "提示詞已複製。"
+
+    command_copied: "命令已複製。"
+
+    no_longer_have_access: "你已無法訪問此工作流程"
+
+    moved_to_trash: "工作流程已移至廢紙簍"
+
+    new_enum: "新建列舉"
+
+    edit_enum: "編輯列舉"
+
+    enum_name_placeholder: "名稱"
+
+    enum_variant_placeholder: "變體"
+
+    enum_variants: "變體"
+
+    enum_type_static: "靜態"
+
+    enum_type_dynamic: "動態"
+
+    enum_dynamic_placeholder: "# 輸入生成變體的 shell 命令，變體之間用換行分隔。\n\ngit branch -a"
+
+
+  command_search:
+    placeholder: "搜尋歷史記錄、工作流程等"
+
+    current: "當前"
+
+    running: "執行中..."
+
+    completed: "已完成"
+
+    completed_over_hour_ago: "已於 1 小時前完成"
+
+    completed_minute_ago: "已於 {mins} 分鐘前完成"
+
+    completed_minutes_ago: "已於 {mins} 分鐘前完成"
+
+    no_timestamp: "未找到時間戳"
+
+    empty_session: "空工作階段"
+
+    result_executed: "結果已執行"
+
+    result_executed_help: "按 Cmd-Up 跳轉到命令輸出。"
+
+    result_accepted: "結果已接受。"
+
+    result_accepted_help: "你可以先在這裡編輯命令，再按 Enter 執行。"
+
+    loading: "正在載入..."
+
+    no_results: "未找到結果。"
+
+    out_of_credits_prefix: "你的額度似乎已經用完。"
+
+    out_of_credits_suffix: "以獲得更多額度。"
+
+    accessibility_title: "命令搜尋"
+
+    accessibility_description: "搜尋歷史記錄、工作流程等。輸入後使用上下方向鍵瀏覽搜尋結果。按 Enter 接受所選結果並插入終端機輸入。按 Escape 關閉。"
+
+
+  file_search:
+    directory_label: "目錄：{path}"
+
+    file_label: "檔案：{path}"
+
+    navigate_directory_help: "按 Enter 跳轉到此目錄"
+
+    open_file_help: "按 Enter 開啟此檔案"
+
+    create_file: "建立 {name}…"
+
+    create_file_label: "建立檔案：{name}"
+
+    create_file_help: "按 Enter 在當前目錄建立 {name}"
+
+
+  command_palette:
+    search_placeholder: "搜尋命令"
+
+    no_results: "未找到結果"
+
+    recent: "最近"
+
+    suggested: "建議"
+
+    cannot_switch_conversations_monitoring: "Agent 正在監控命令，無法切換工作階段。"
+
+    cannot_start_conversation_monitoring: "Agent 正在監控命令，無法開始新工作階段。"
+
+    conversation_label: "工作階段：{title}"
+
+    notebook_label: "筆記本：{title}"
+
+    environment_variables_label: "環境變數：{title}"
+
+    fork_current_conversation_label: "Fork 當前工作階段（{title}）"
+
+    new_conversation: "新建工作階段"
+
+    navigate_conversation_help: "按 Enter 跳轉到工作階段“{title}”。"
+
+    fork_current_conversation_help: "按 Enter 將當前工作階段 fork 為新工作階段。"
+
+    create_new_conversation_help: "按 Enter 建立新工作階段。"
+
+    direction_down: "向下"
+
+    direction_right: "向右"
+
+    direction_up: "向上"
+
+    direction_left: "向左"
+
+    create_new_tab_base: "新建分頁"
+
+    create_new_window_base: "新建視窗"
+
+    split_pane_down: "向下拆分面板"
+
+    split_pane_right: "向右拆分面板"
+
+    split_pane_up: "向上拆分面板"
+
+    split_pane_left: "向左拆分面板"
+
+    create_new_tab: "新建分頁：{shell}"
+
+    create_new_window: "新建視窗：{shell}"
+
+    split_pane: "{direction}拆分面板：{shell}"
+
+    selected_item: "已選擇 {item}。"
+
+    selected_item_with_description: "已選擇 {item}。{description}。"
+
+    selected_tab: "已選擇分頁：{title}。"
+
+    navigate_tab_help: "按 Enter 跳轉到分頁：{title}。"
+
+    launch_session_help: "按 Enter 啟動此工作階段。"
+
+    navigate_session_help: "按 Enter 跳轉到此工作階段。"
+
+    use_launch_config_help: "按 Enter 使用此啟動設定。"
+
+
+  search_bar:
+    loading_suggestions: "正在載入 {filter} 建議"
+
+    error_finding_results: "查詢結果時出錯"
+
+
+  notebook_embedding:
+    search_placeholder: "搜尋引用"
+
+    no_results_found: "未找到結果。"
+
+    not_visible_to_other_users: "其他使用者不可見"
+
+
+  rules:
+    header: "規則"
+
+    description: "規則透過提供結構化指南來增強 Agent，說明保持一致性、執行最佳實踐，並適配程式碼庫或更廣泛任務等特定工作流程。"
+
+    search_placeholder: "搜尋規則"
+
+    zero_state: "在上方新增規則，或把規則放到 ~/.agents/AGENTS.md，讓它應用到每個專案。"
+
+    zero_state_project: "為專案生成 WARP.md 規則檔案後，它會顯示在這裡。"
+
+    disabled_banner_prefix: "你的規則已禁用，不會作為工作階段上下文使用。你可以"
+
+    disabled_banner_link: "重新啟用"
+
+    disabled_banner_suffix: "。"
+
+    global_scope: "全域性"
+
+    project_based_scope: "基於專案"
+
+    open_file: "開啟檔案"
+
+    untitled: "未命名"
+
+    add_rule: "新增規則"
+
+    edit_rule: "編輯規則"
+
+    name: "名稱"
+
+    rule: "規則"
+
+    name_placeholder: "例如 Rust 規則"
+
+    rule_placeholder: "例如 永遠不要在 Rust 中使用 unwrap"
+
+
+  # ── AI 助手 ──
+  ai_assistant:
+    ask_warp_ai: "詢問 Warp AI"
+
+    close: "關閉 Warp AI"
+
+    warp_agent: "Warp Agent"
+
+    remote_session_org_policy: "當活動面板包含遠端工作階段內容時，你的組織不允許使用 AI"
+
+    create_account_to_use_ai: "要使用 AI 功能，請先建立賬號。"
+
+    active_ai: "主動 AI"
+
+    next_command: "下一條命令"
+
+    next_command_description: "讓 AI 根據你的命令歷史、輸出和常見工作流程建議下一條要執行的命令。"
+
+    prompt_suggestions: "提示詞建議"
+
+    prompt_suggestions_description: "讓 AI 根據最近的命令及其輸出，在輸入框內以內聯橫幅形式建議自然語言提示詞。"
+
+    code_suggestions: "程式碼建議"
+
+    suggested_code_banners: "程式碼建議橫幅"
+
+    suggested_code_banners_description: "讓 AI 根據最近的命令及其輸出，在區塊列表中以內聯橫幅形式建議程式碼 diff 和查詢。"
+
+    dont_show_suggested_code_banners_again: "不再顯示程式碼建議橫幅"
+
+    natural_language_autosuggestions: "自然語言自動建議"
+
+    natural_language_autosuggestions_description: "讓 AI 根據最近的命令及其輸出，建議自然語言自動補全。"
+
+    shared_block_title_generation: "共享區塊標題生成"
+
+    shared_block_title_generation_description: "讓 AI 根據命令和輸出為共享區塊生成標題。"
+
+    commit_pr_generation: "提交與 Pull Request 生成"
+
+    git_operations_autogen_description: "讓 AI 生成提交資訊、Pull Request 標題和描述。"
+
+    voice_input: "語音輸入"
+
+    copy_transcript: "複製對話到剪貼簿"
+
+    show_examples: "檢視示例"
+
+    what_to_do_next: "接下來我該做什麼？"
+
+    accuracy_notice: "AI 回覆可能不準確"
+
+    copy_code: "複製程式碼到剪貼簿 [Cmd + C]"
+
+    copy_answer: "複製回答到剪貼簿"
+
+    after_refresh: "{next_refresh_time} 後"
+
+    later: "稍後"
+
+    out_of_credits_upgrade: "你的額度似乎已經用完。請在 {next_time} 再試。\n\n[升級]({upgrade_url}) 以獲得更多額度。"
+
+    out_of_credits_contact_admin: "你的額度似乎已經用完。請在 {next_time} 再試。\n\n請聯絡團隊管理員升級以獲得更多額度。"
+
+    out_of_credits_contact_admin_short: "你的 AI 額度似乎已經用完。請聯絡團隊管理員升級以獲得更多額度。"
+
+    out_of_credits: "你的額度似乎已經用完。請在 {next_time} 再試。"
+
+    days: "{num_days} 天"
+
+    hours: "{num_hours} 小時"
+
+    minutes: "{num_minutes} 分鐘"
+
+    credits_used: "已用額度：{num_requests_used} / {request_limit}。"
+
+    until_refresh: "距離重新整理還有 {next_refresh_time}。"
+
+    insert_code_into_terminal: "插入程式碼到終端機輸入 [Cmd + Enter]"
+
+    save_as_workflow: "另存為工作流程 [Cmd + S]"
+
+    out_of_credits_short: "你的 AI 額度似乎已經用完。"
+
+    upgrade_for_more_credits: "升級以獲得更多額度。"
+
+    ask_question_placeholder: " 提問..."
+
+    followup_placeholder: " 輸入回覆或點選上方建議..."
+
+    character_limit_exceeded: "超過字元限制。"
+
+    zero_state_help: "按 Shift + Ctrl + Space，可對區塊或選中文字提問 Warp AI。"
+
+    generating_answer: "正在生成回答..."
+
+    missing_context_notice: "對話變長後，Warp AI 可能會忘記較早的回答。"
+
+
+  # ── AI 設定頁 ──
+  ai_settings_page:
+    repo_path_placeholder: "例如 ~/code-repos/repo"
+
+    commands_comma_placeholder: "命令，用逗號分隔"
+
+    command_allowlist_placeholder: "例如 ls .*"
+
+    command_denylist_placeholder: "例如 rm .*"
+
+    command_regex_placeholder: "命令（支援 regex）"
+
+    aws_login_placeholder: "aws login"
+
+    default_profile_placeholder: "default"
+
+    input: "輸入"
+
+    show_input_hint_text: "顯示輸入提示文字"
+
+    show_agent_tips: "顯示 Agent 提示"
+
+    hide_agent_tips: "隱藏 Agent 提示"
+
+    include_agent_commands_in_history: "將 Agent 執行的命令加入歷史記錄"
+
+    autodetect_agent_prompts: "自動檢測終端機輸入中的 Agent 提示詞"
+
+    autodetect_terminal_commands: "自動檢測 Agent 輸入中的終端機命令"
+
+    natural_language_detection: "自然語言檢測"
+
+    natural_language_detection_description: "啟用自然語言檢測後，Warp 會檢測終端機輸入中的自然語言，並自動切換到 Agent Mode 處理 AI 查詢。"
+
+    incorrect_input_detection_prompt: "遇到錯誤輸入檢測？"
+
+    natural_language_denylist: "自然語言 denylist"
+
+    natural_language_denylist_description: "這裡列出的命令永遠不會觸發自然語言檢測。"
+
+    rules: "規則"
+
+    rules_description: "規則可說明 Warp Agent 遵循你的約定，無論是程式碼庫約定還是特定工作流程。"
+
+    suggested_rules: "建議規則"
+
+    suggested_rules_description: "讓 AI 根據你的互動建議可儲存的規則。"
+
+    warp_drive_agent_context: "將 Warp Drive 作為 Agent 上下文"
+
+    warp_drive_agent_context_description: "Warp Agent 可以利用你的 Warp Drive 內容，根據個人和團隊開發工作流程及環境定製回覆。這包括所有工作流程、筆記本和環境變數。"
+
+    knowledge: "知識"
+
+    manage_rules: "管理規則"
+
+    voice: "語音"
+
+    other: "其他"
+
+    show_oz_changelog: "在新 Agent 對話檢視中顯示 Oz changelog"
+
+    hide_oz_changelog: "在新 Agent 對話檢視中隱藏 Oz changelog"
+
+    show_oz_changelog_short: "在新對話檢視中顯示 Oz changelog"
+
+    show_use_agent_footer: "顯示“Use Agent”頁尾"
+
+    hide_use_agent_footer: "隱藏“Use Agent”頁尾"
+
+    use_agent_footer_description: "在長時間執行的命令中顯示提示，以使用啟用了“Full Terminal Use”的 Agent。"
+
+    show_conversation_history: "在工具面板中顯示對話歷史"
+
+    agent_thinking_display: "Agent thinking 顯示"
+
+    agent_thinking_display_description: "控制 reasoning/thinking traces 的顯示方式。"
+
+    existing_conversation_layout: "開啟現有 Agent 對話時的首選佈局"
+
+    select_coding_agent: "選擇編碼 Agent"
+
+    upgrade: "升級"
+
+    compare_plans: "比較套餐"
+
+    contact_support: "聯絡支援"
+
+    contact_sales: "聯絡銷售"
+
+    to_get_more_ai_usage: "以獲得更多 AI 用量。"
+
+    for_more_ai_usage: "以獲得更多 AI 用量。"
+
+    no_mcp_servers_description: "你還沒有新增任何 MCP servers。新增後，你就可以控制 Warp Agent 與它們互動時擁有多少自主許可權。"
+
+    add_server: "新增 server"
+
+    or_separator: " 或 "
+
+    learn_more_about_mcps: "瞭解更多 MCPs。"
+
+    select_mcp_servers: "選擇 MCP servers"
+
+    incorrect_detection_prompt: "遇到錯誤檢測？"
+
+    let_us_know: "告訴我們"
+
+    voice_input_description_start: "語音輸入允許你直接對終端機說話來控制 Warp（由 "
+
+    wispr_flow: "Wispr Flow"
+
+    voice_input_description_end: " 提供支援）。"
+
+    voice_input_toggle_key: "啟用語音輸入的按鍵"
+
+    voice_input_toggle_key_description: "按住即可啟用。"
+
+    third_party_cli_agents: "第三方 CLI agents"
+
+    show_coding_agent_toolbar: "顯示 coding agent 工具欄"
+
+    coding_agent_toolbar_description_start: "執行以下 coding agents 時顯示快捷操作工具欄："
+
+    auto_toggle_rich_input: "根據 Agent 狀態自動顯示/隱藏 Rich Input"
+
+    requires_warp_plugin: "需要為你的 coding agent 安裝 Warp plugin"
+
+    auto_open_rich_input: "coding agent 工作階段啟動時自動開啟 Rich Input"
+
+    auto_dismiss_rich_input: "提交提示詞後自動關閉 Rich Input"
+
+    coding_agent_toolbar_commands_description: "新增 regex patterns，以便匹配命令時顯示 coding agent 工具欄。"
+
+    agent_attribution: "Agent Attribution"
+
+    enable_agent_attribution: "啟用 Agent attribution"
+
+    agent_attribution_description: "Oz 可以為它建立的提交資訊和 Pull Request 新增 attribution"
+
+    experimental: "實驗性"
+
+    cloud_agent_computer_use: "Cloud Agents 中的 computer use"
+
+    cloud_agent_computer_use_description: "為從 Warp app 啟動的 cloud agent 對話啟用 computer use。"
+
+    orchestration: "編排"
+
+    orchestration_description: "啟用多 Agent 編排，允許 Agent 生成並協調並行 sub-agents。"
+
+    cloud_handoff: "Cloud handoff"
+
+    cloud_handoff_header: "Cloud Handoff"
+
+    cloud_handoff_description: "將本地 Agent 對話交接給 cloud agent。"
+
+    cloud_handoff_requires_cloud_conversations: "Cloud handoff 需要啟用 cloud conversations。"
+
+    use_ampersand_handoff: "使用 & 觸發 handoff"
+
+    use_ampersand_handoff_description: "將 & 作為第一個字元輸入，即可進入 cloud handoff compose 模式。"
+
+    read_only: "只讀"
+
+    supervised: "監督模式"
+
+    context_window_tokens: "上下文視窗（tokens）"
+
+    api_keys: "API Keys"
+
+    api_keys_description: "使用你自己的模型提供商 API keys 供 Warp Agent 使用。API keys 會儲存在本地，永遠不會同步到雲端。使用 auto models，或使用未提供 API key 的提供商模型時，將消耗 Warp credits。"
+
+    openai_api_key: "OpenAI API Key"
+
+    anthropic_api_key: "Anthropic API Key"
+
+    google_api_key: "Google API Key"
+
+    warp_credit_fallback: "Warp credit fallback"
+
+    warp_credit_fallback_description: "啟用後，Agent 請求在出錯時可能會路由到 Warp 提供的某個模型。Warp 會優先使用你的 API keys，而不是 Warp credits。"
+
+    aws_bedrock: "AWS Bedrock"
+
+    use_aws_bedrock_credentials: "使用 AWS Bedrock credentials"
+
+    aws_bedrock_credentials_description: "Warp 會載入併傳送本地 AWS CLI credentials，用於支援 Bedrock 的模型。"
+
+    aws_bedrock_credentials_description_managed: "Warp 會載入併傳送本地 AWS CLI credentials，用於支援 Bedrock 的模型。此設定由你的組織管理。"
+
+    login_command: "登入命令"
+
+    aws_profile: "AWS Profile"
+
+    automatically_run_login_command: "自動執行登入命令"
+
+    automatically_run_login_command_description: "啟用後，當 AWS Bedrock credentials 過期時，將自動執行登入命令。"
+
+    comma_separator: "、"
+
+    comma_or_separator: " 或 "
+
+    enterprise_byok_suffix: "以在你的 Enterprise 套餐中啟用自帶 API keys。"
+
+    upgrade_to_build_plan: "升級到 Build 套餐"
+
+    use_own_api_keys_suffix: "以使用你自己的 API keys。"
+
+    ask_admin_upgrade_build_for_byok: "請讓你的團隊管理員升級到 Build 套餐，以使用你自己的 API keys。"
+
+    create_account: "建立賬號"
+
+
+  # ── 程式碼審查 ──
+  code_review:
+    comment: "評論"
+
+    one_comment: "1 條評論"
+
+    commit: "提交"
+
+    push: "推送"
+
+    publish: "釋出"
+
+    copy_text: "複製文字"
+
+    edit: "編輯"
+
+    view_in_github: "在 GitHub 中檢視"
+
+    open_pr: "開啟 PR"
+
+    file_level_comment_edit_hint: "檔案級評論暫不支援編輯"
+
+    comment_imported_from_github: "從 GitHub 匯入的評論"
+
+    view_changes: "檢視更改"
+
+    local_workspaces_only: "Diff 僅支援本地工作區。"
+
+    git_repositories_only: "Diff 僅支援 Git 儲存庫。"
+
+    wsl_unsupported: "Diff 暫不支援 WSL。"
+
+    cannot_detect_diffs_folder: "無法檢測此資料夾的 diff"
+
+    error_loading_diffs: "載入 diff 失敗"
+
+    no_open_changes: "沒有開啟的更改"
+
+    no_open_changes_description: "當你或 Agent 做出更改時，可以在這裡跟蹤。"
+
+    comments_sent_to_agent: "評論已傳送給 Agent"
+
+    diff_too_large: "Diff 太大，無法渲染"
+
+    binary_file_no_diff: "二進位制檔案，無法顯示 diff"
+
+    file_renamed_without_changes: "檔案已重新命名，無內容更改"
+
+    new_empty_file: "新的空檔案"
+
+    unable_to_load_file_content: "無法載入檔案內容"
+
+    no_file_selected: "未選擇檔案"
+
+    no_files_to_discard: "沒有可丟棄的檔案"
+
+    diff_removed: "Diff 已移除"
+
+    cannot_attach_context_terminal_running: "終端機正在執行，無法附加上下文"
+
+    cannot_attach_diff_input_unavailable: "輸入不可用，無法附加 diff"
+
+    create_pr: "建立 PR"
+
+    add_diff_set_as_context: "將 diff 集新增為上下文"
+
+    show_saved_comment: "顯示已儲存評論"
+
+    add_comment: "新增評論"
+
+    discard_all: "全部丟棄"
+
+    generating_commit_message: "正在生成提交資訊…"
+
+    type_commit_message: "輸入提交資訊"
+
+    committing: "正在提交…"
+
+    include_unstaged: "包含未暫存"
+
+    commit_message: "提交資訊"
+
+    outdated_comment_singular: "由於已過時，將省略 1 條評論。"
+
+    outdated_comment_plural: "由於已過時，將省略 {count} 條評論。"
+
+    included_commits: "包含的提交"
+
+    from_github: "來自 GitHub"
+
+    no_matches: "沒有匹配項"
+
+    pr_successfully_created: "PR 已成功建立。"
+
+    code_review: "程式碼審查"
+
+
+  code:
+    code: "程式碼"
+
+    initialization_settings: "初始化設定"
+
+    codebase_indexing: "程式碼庫索引"
+
+    codebase_index_description: "Warp 可以在你瀏覽程式碼儲存庫時自動建立索引，說明 Agent 快速理解上下文並提供解決方案。程式碼不會儲存在伺服器上。如果某個程式碼庫無法建立索引，Warp 仍然可以透過 grep 和 find 工具呼叫瀏覽程式碼庫並獲取資訊。"
+
+    index_codebase_title: "索引程式碼庫？"
+
+    index_codebase_description: "索引可以說明 Agent 快速理解上下文並提供有針對性的解決方案。程式碼不會儲存在伺服器上。"
+
+    allow_automatic_indexing: "允許自動索引"
+
+    index_codebase: "索引程式碼庫"
+
+    indexing_codebase: "正在索引程式碼庫"
+
+    view_status: "檢視狀態"
+
+    open_tab_config_skill: "開啟 Agent 輸入並使用 /update-tab-config skill"
+
+    enable_ai_for_tab_config_skill: "啟用 AI 以使用 /update-tab-config skill"
+
+    install_server: "安裝 {server}"
+
+    enable_server: "啟用 {server}"
+
+    install_servers: "安裝伺服器"
+
+    enable_servers: "啟用伺服器"
+
+    open_logs: "開啟日誌"
+
+    restart_server: "重啟伺服器"
+
+    restart_all_servers: "重啟所有伺服器"
+
+    stop_server: "停止伺服器"
+
+    stop_all_servers: "停止所有伺服器"
+
+    start_server: "啟動伺服器"
+
+    start_all_stopped_servers: "啟動所有已停止的伺服器"
+
+    start_all_servers: "啟動所有伺服器"
+
+    remove_server: "移除伺服器"
+
+    manage_servers: "管理伺服器"
+
+    server_stopped: "{server}：已停止"
+
+    server_error: "{server}：錯誤"
+
+    language_support_not_enabled: "{root} 當前未啟用語言支援"
+
+    language_support_unavailable_file_type: "此檔案型別不支援語言支援"
+
+    language_server_unavailable_codebase: "此程式碼庫無法使用語言伺服器"
+
+    installing_server: "正在安裝 {server}..."
+
+    language_support_unavailable: "{root} 無法使用語言支援"
+
+    this_codebase: "此程式碼庫"
+
+    warp_indexing_ignore_description: "如需排除特定檔案或目錄，請將它們新增到儲存庫目錄中的 .warpindexingignore 檔案。這些檔案仍可供 AI 功能訪問，但不會包含在程式碼庫 embedding 中。"
+
+    auto_index_feature_name: "預設索引新資料夾"
+
+    auto_index_description: "設定為 true 後，Warp 會在你瀏覽程式碼儲存庫時自動建立索引，說明 Agent 快速理解上下文並提供針對性解決方案。"
+
+    codebase_index_limit_reached: "你已達到當前計劃的程式碼庫索引數量上限。請刪除現有索引後再自動索引新程式碼庫。"
+
+    indexing_disabled_admin: "團隊管理員已禁用程式碼庫索引。"
+
+    indexing_enabled_admin: "團隊管理員已啟用程式碼庫索引。"
+
+    indexing_disabled_global_ai: "必須啟用 AI 功能才能使用程式碼庫索引。"
+
+    copy_file_path: "複製檔案路徑"
+
+    view_markdown_preview: "檢視 Markdown 預覽"
+
+    go_to_definition: "轉到定義"
+
+    find_references: "查詢引用"
+
+    goto_line_placeholder: "行號:列"
+
+    go_to_line: "轉到行"
+
+    hunk_label: "Hunk:"
+
+    reject: "拒絕"
+
+    accept_and_save: "接受並儲存"
+
+    saved_changes_not_reflected: "此檔案有已儲存但尚未顯示在這裡的更改。"
+
+    discard_this_version: "丟棄此版本"
+
+    overwrite: "覆蓋"
+
+
+  code_file_tree:
+    open_in_new_pane: "在新面板中開啟"
+
+    open_in_new_tab: "在新分頁中開啟"
+
+    open_file: "開啟檔案"
+
+    new_file: "新建檔案"
+
+    cd_to_directory: "cd 到目錄"
+
+    reveal_in_finder: "在 Finder 中顯示"
+
+    reveal_in_explorer: "在 Explorer 中顯示"
+
+    reveal_in_file_manager: "在檔案管理器中顯示"
+
+    rename: "重新命名"
+
+    delete: "刪除"
+
+    attach_as_context: "作為上下文附加"
+
+    copy_path: "複製路徑"
+
+    copy_relative_path: "複製相對路徑"
+
+    project_explorer_unavailable: "專案資源管理器不可用"
+
+    remote_unavailable: "專案資源管理器需要訪問你的本地工作區，遠端工作階段不支援。"
+
+    inactive_unavailable: "專案資源管理器需要訪問你的本地工作區。請開啟新工作階段或導航到活動工作階段以檢視。"
+
+    wsl_unavailable: "專案資源管理器當前不支援 WSL。"
+
+
+  privacy:
+    secret_redaction: "金鑰遮蓋"
+
+    custom_secret_redaction: "自定義金鑰遮蓋"
+
+    help_improve_warp: "說明改進 Warp"
+
+    manage_your_data: "管理你的資料"
+
+    visit_data_management_page: "訪問資料管理頁面"
+
+    privacy_policy: "隱私權政策"
+
+    read_privacy_policy: "閱讀 Warp 隱私權政策"
+
+    zero_data_retention_admin_tooltip: "你的管理員已為團隊啟用零資料保留。使用者生成內容永遠不會被收集。"
+
+    name_optional: "名稱（可選）"
+
+    regex_pattern: "Regex 模式"
+
+    name_placeholder: "例如 \"Google API Key\""
+
+    regex_pattern_placeholder: "\\bAIza[0-9A-Za-z-_]{35}\\b"
+
+    invalid_regex: "無效 regex"
+
+    add_regex: "新增 regex"
+
+    add_regex_pattern: "新增 regex 模式"
+
+    enterprise_secret_redaction_locked: "企業金鑰遮蓋無法修改。"
+
+    enabled_by_organization: "已由你的組織啟用。"
+
+    secret_redaction_description: "啟用後，Warp 會掃描 blocks、Warp Drive 物件內容和 Oz prompts 中的潛在敏感資訊，並阻止將這些資料儲存或傳送到任何伺服器。你可以透過 regex 自定義此列表。"
+
+    secret_visual_redaction_mode: "金鑰視覺遮蓋模式"
+
+    secret_visual_redaction_mode_description: "選擇金鑰在 block 列表中的視覺呈現方式，同時保持可搜尋。此設定隻影響你在 block 列表中看到的內容。"
+
+    custom_secret_redaction_description: "使用 regex 定義想要額外遮蓋的金鑰或資料。它會在下一條命令執行時生效。你可以使用內聯 (?i) 標誌作為 regex 字首，讓匹配忽略大小寫。"
+
+    telemetry_description_enterprise: "應用分析可說明我們為你改進產品。我們只收集應用使用後設資料，絕不收集控制檯輸入或輸出。"
+
+    telemetry_description: "應用分析可說明我們為你改進產品。我們可能會收集部分控制檯互動，以改進 Warp 的 AI 能力。"
+
+    telemetry_free_tier_note: "Free 層需要啟用分析才能使用 AI 功能。"
+
+    managed_by_organization: "此設定由你的組織管理。"
+
+    read_more_data_use: "瞭解更多 Warp 如何使用資料"
+
+    send_crash_reports: "傳送崩潰報告"
+
+    crash_reports_description: "崩潰報告有助於除錯和提升穩定性。"
+
+    store_ai_conversations_cloud: "在雲端儲存 AI 對話"
+
+    cloud_conversation_storage_enabled_description: "Agent 對話可與他人共享，並會在你登入不同裝置時保留。此資料僅為產品功能而儲存，Warp 不會將其用於分析。"
+
+    cloud_conversation_storage_disabled_description: "Agent 對話只會儲存在本機，登出後會丟失，且無法共享。注意：ambient agents 的對話資料仍會儲存在雲端。"
+
+    network_log_console: "網路日誌控制檯"
+
+    network_log_console_description: "我們內建了一個原生控制檯，用於檢視 Warp 與外部伺服器之間的所有通訊，說明你確認工作內容始終安全。"
+
+    view_network_logging: "檢視網路日誌"
+
+    data_management_description: "你可以隨時選擇永久刪除 Warp 賬號。刪除後將無法繼續使用 Warp。"
+
+    personal: "個人"
+
+    enterprise: "企業"
+
+
+  # ── 上下文 ──
+  context:
+    view_pull_request: "檢視 Pull Request"
+
+    change_git_branch: "切換 Git 分支"
+
+    change_working_directory: "切換工作目錄"
+
+    working_directory: "工作目錄"
+
+
+  # ── Warp Drive ──
+  drive:
+    import: "匯入"
+
+    remove: "移除"
+
+    rename: "重新命名"
+
+    emails: "郵箱"
+
+    copy_link: "複製連結"
+
+    share: "共享"
+
+    collapse_all: "全部摺疊"
+
+    retry: "重試"
+
+    revert_to_server: "還原為伺服器版本"
+
+    attach_to_active_session: "附加到當前工作階段"
+
+    copy_prompt: "複製提示詞"
+
+    copy_workflow_text: "複製工作流程文字"
+
+    copy_id: "複製 ID"
+
+    copy_variables: "複製變數"
+
+    preparing: "正在準備..."
+
+    choose_files: "選擇檔案..."
+
+    create_account_to_use: "要使用 Warp Drive，請先建立賬號。"
+
+    supported_import_file_types: "md, yaml, yml"
+
+    no_access: "無訪問許可權"
+
+    full_access_required_prefix: "你必須擁有完整訪問許可權才能管理許可權。你當前擁有 "
+
+    full_access_required_suffix: " 許可權。"
+
+    team_full_permissions_tooltip: "團隊物件會自動向團隊成員授予完整許可權"
+
+    owner_full_permissions_tooltip: "所有者始終對自己的物件擁有完整許可權"
+
+    only_people_invited: "僅受邀人員"
+
+    who_has_access: "有權訪問的人員"
+
+    anyone_with_link: "知道連結的任何人"
+
+    only_invited_teammates: "僅受邀隊友"
+
+    teammates_with_link: "知道連結的隊友"
+
+    load_in_subshell: "在子 shell 中載入"
+
+    move_to_space: "移動到 {space}"
+
+    open_on_desktop: "在桌面端開啟"
+
+    duplicate: "複製副本"
+
+    export: "匯出"
+
+    trash: "移到廢紙簍"
+
+    trash_title: "廢紙簍"
+
+    trash_section_label: "廢紙簍"
+
+    empty_trash: "清空廢紙簍"
+
+    open: "開啟"
+
+    edit: "編輯"
+
+    restore: "恢復"
+
+    delete_forever: "永久刪除"
+
+    title: "Warp Drive"
+
+    create_team_hint: "與團隊成員共享命令和知識。"
+
+    team_zero_state_hint: "將個人工作流程或筆記本拖動或移動到這裡，以便與你的團隊共享。"
+
+    create_team: "建立團隊"
+
+    view_teams_to_join: "檢視可加入的團隊"
+
+    view_team_to_join: "檢視可加入的團隊"
+
+    personal_storage_signup: "免費註冊以提升儲存上限並解鎖更多功能。"
+
+    shared_object_limit_line_1: "你的方案中的 {object_type} 數量已用盡。"
+
+    shared_object_limit_line_2: "升級即可訪問更多筆記本、工作流程、共享工作階段和 AI credits。"
+
+    payment_issue_line_1: "由於訂閱付款問題，共享物件已受限。"
+
+    payment_issue_admin_line_2: "請更新付款資訊以恢復訪問。"
+
+    payment_issue_enterprise_line_2: "請聯絡 support@warp.dev 以恢復訪問。"
+
+    payment_issue_nonadmin_line_2: "請聯絡團隊管理員以恢復訪問。"
+
+    folder: "資料夾"
+
+    folders: "資料夾"
+
+    notebook: "筆記本"
+
+    notebooks: "筆記本"
+
+    workflow: "工作流程"
+
+    workflows: "工作流程"
+
+    prompt: "提示詞"
+
+    agent_workflows: "Agent 工作流程"
+
+    environment_variables: "環境變數"
+
+    ai_fact: "AI Fact"
+
+    rules: "規則"
+
+    mcp_server: "MCP Server"
+
+    mcp_servers: "MCP Servers"
+
+    new_folder: "新建資料夾"
+
+    new_notebook: "新建筆記本"
+
+    new_workflow: "新建工作流程"
+
+    new_prompt: "新建提示詞"
+
+    new_environment_variables: "新建環境變數"
+
+    offline_banner: "你當前離線。部分檔案將變為只讀。"
+
+    sort_by: "排序方式"
+
+    retry_sync: "重試同步"
+
+    trash_retention_notice: "廢紙簍中的專案將在 30 天后永久刪除。"
+
+    syncing: "正在同步 Warp Drive"
+
+    delete_team_confirm_title: "確定要刪除這個團隊嗎？"
+
+    leave_team_confirm_title: "確定要離開這個團隊嗎？"
+
+    delete_team_confirm_body: "刪除此團隊會永久刪除它及其所有相關內容，包括賬單資訊或額度。刪除後無法恢復。"
+
+    leave_team_confirm_body: "你需要重新被邀請才能重新加入。"
+
+    yes_delete: "是，刪除"
+
+    yes_leave: "是，離開"
+
+    notebook_name: "筆記本名稱"
+
+    folder_name: "資料夾名稱"
+
+    collection_name: "集合名稱"
+
+    create: "建立"
+
+    empty_trash_confirm_title: "確定要清空廢紙簍嗎？"
+
+    yes_empty_trash: "是，清空廢紙簍"
+
+    open_in_finder: "在 Finder 中開啟"
+
+    open_in_folder: "在資料夾中開啟"
+
+    finished_exporting_objects: "物件匯出完成"
+
+    untitled_workflow: "未命名工作流程"
+
+    add_title: "新增標題"
+
+    add_description: "新增描述"
+
+    command_editor_placeholder: "echo \"Hello {{your_name}}\" # 用花括號插入引數\n# 輸入單行命令或完整 shell 指令碼"
+
+    agent_mode_prompt_placeholder: "在這裡輸入你的提示詞...（例如：“建立一個函式，按日期對物件陣列排序”或“幫我除錯這個 React 元件”）。"
+
+    new_argument: "新建引數"
+
+    description: "描述"
+
+    default_value_optional: "預設值（可選）"
+
+    save_workflow: "儲存工作流程"
+
+    autofill: "自動填充"
+
+    loading: "載入中"
+
+    unsaved_changes: "你有未儲存的更改。"
+
+    keep_editing: "繼續編輯"
+
+    discard_changes: "丟棄更改"
+
+    generate_workflow_fields_tooltip: "使用 Warp AI 生成標題、描述或引數"
+
+    aliases_help: "別名可用於建立執行工作流程的短字串。每個別名都可以有不同的引數值和環境變數，且別名僅對你個人可見。"
+
+    alias_name_placeholder: "別名名稱"
+
+    run_in_warp: "在 Warp 中執行"
+
+    sign_in_to_edit: "登入後編輯"
+
+    restore_workflow_from_trash: "從廢紙簍恢復工作流程"
+
+    untitled: "未命名"
+
+    or: "或"
+
+
+  # ── 筆記本 ──
+  notebook:
+    move_to_space: "移動到 {space}"
+
+    attach_to_active_session: "附加到當前工作階段"
+
+    copy_link: "複製連結"
+
+    viewing: "檢視中"
+
+    editing: "編輯中"
+
+    editor_is_editing: "{editor} 正在編輯"
+
+    other_user: "其他使用者"
+
+    could_not_read_source_file: "無法讀取 {source}"
+
+    try_again: "重試"
+
+    loading_source_file: "正在載入 {source}..."
+
+    missing_source_file: "缺少原始檔"
+
+    open_on_desktop: "在桌面端開啟"
+
+    duplicate: "複製副本"
+
+    export: "匯出"
+
+    trash: "移到廢紙簍"
+
+    refresh_file: "重新整理檔案"
+
+    new_session: "新建工作階段"
+
+    open_new_session_in_directory: "在此目錄中新建終端機工作階段"
+
+    open_in_terminal_session: "在終端機工作階段中開啟"
+
+    open_in_editor: "在編輯器中開啟"
+
+    edit_markdown_file: "編輯 Markdown 檔案"
+
+    copy_file_path: "複製檔案路徑"
+
+    file_not_found: "未找到檔案"
+
+    no_base_directory: "無基礎目錄"
+
+    broken_file_link: "檔案連結已損壞"
+
+    content_contains_secrets: "此筆記本無法儲存，因為內容包含金鑰"
+
+    title_contains_secrets: "此筆記本無法儲存，因為標題包含金鑰"
+
+    restore_from_trash: "從廢紙簍恢復筆記本"
+
+    restore: "恢復"
+
+    copy_to_personal_tooltip: "將筆記本內容複製到你的個人工作區"
+
+    copy_to_personal: "複製到個人空間"
+
+    copy_all_tooltip: "複製筆記本內容到剪貼簿"
+
+    copy_all: "全部複製"
+
+    refresh_notebook: "重新整理筆記本"
+
+    refresh: "重新整理"
+
+    insert_block: "插入區塊"
+
+    embed: "嵌入"
+
+    divider: "分隔線"
+
+    apply_link: "應用連結"
+
+    link_text_placeholder: "文字"
+
+    link_url_placeholder: "連結（網頁或檔案）"
+
+    link_copied: "連結已複製到剪貼簿"
+
+    raw: "原始"
+
+    rendered: "渲染"
+
+    block_type_text: "文字"
+
+    block_type_command: "命令"
+
+    block_type_bulleted_list: "專案符號列表"
+
+    block_type_numbered_list: "編號列表"
+
+    block_type_code: "程式碼"
+
+    block_type_todo_list: "待辦列表"
+
+
+  # ── 引導 ──
+  onboarding:
+    welcome_title: "歡迎使用 Warp"
+
+    back: "返回"
+
+    next: "下一步"
+
+    skip: "跳過"
+
+    get_started: "開始使用"
+
+    get_warping: "開始使用 Warp"
+
+    enabled: "啟用"
+
+    disabled: "禁用"
+
+    set_by_team_workspace: "由團隊工作區設定"
+
+    disable_warp_agent: "禁用 Warp Agent"
+
+    intro:
+      subtitle: "內建先進智慧體的現代終端機。"
+
+      already_have_account: "已有賬號？"
+
+      log_in: "登入"
+
+    intention:
+      subtitle: "你想怎樣工作？"
+
+      agent_title: "使用 AI 智慧體更快構建"
+
+      agent_description: "以智慧體為核心，同時保留一流終端機體驗。可使用這些終端機與智慧體驅動開發能力："
+
+      terminal_title: "只使用終端機"
+
+      no_ai_features: "不啟用 AI 功能"
+
+      terminal_description: "為速度、上下文和掌控感最佳化的現代終端機，不啟用 AI。"
+
+    features:
+      warp_agents: "Warp 智慧體"
+
+      oz_cloud_agents: "Oz 雲端智慧體平臺"
+
+      next_command_predictions: "下一條命令預測"
+
+      prompt_suggestions: "提示詞建議"
+
+      codebase_context: "程式碼庫上下文"
+
+      remote_control: "透過 Claude Code、Codex 等智慧體遠端控制"
+
+      agents_over_ssh: "SSH 上的智慧體"
+
+    customize:
+      title: "自定義你的 Warp"
+
+      subtitle: "按你的工作方式調整功能和介面。"
+
+      tab_styling: "分頁樣式"
+
+      vertical: "垂直"
+
+      horizontal: "水平"
+
+      tools_panel: "工具面板"
+
+      code_review: "程式碼審查"
+
+      conversation_history: "工作階段歷史"
+
+      file_explorer: "檔案瀏覽器"
+
+      global_file_search: "全域性檔案搜尋"
+
+      warp_drive: "Warp Drive"
+
+    third_party:
+      title: "自定義第三方 Agent"
+
+      subtitle: "選擇 Claude Code、Codex 和 Gemini 等 Agent 的預設使用方式。"
+
+      cli_agent_toolbar: "CLI Agent 工具欄"
+
+      notifications: "通知"
+
+    theme_picker:
+      title: "選擇主題"
+
+      subtitle: "點選或使用方向鍵選擇，按 Enter 確認。"
+
+      sync_with_os: "跟隨系統切換淺色/深色主題"
+
+    project:
+      title: "開啟專案"
+
+      subtitle: "設定專案，以便在 Warp 中最佳化編碼體驗。"
+
+      open_local_folder: "開啟本地資料夾"
+
+      initialize_automatically: "自動初始化專案"
+
+      initialize_description: "準備專案環境、為程式碼構建索引並生成專案規則，讓 Agent 更深入理解專案並獲得更好表現。"
+
+    free_user_no_ai:
+      title: "開始吧。"
+
+      agent_title: "使用 Warp 內建 Agent 進行智慧體驅動開發"
+
+      agent_description: "使用 Oz（Warp 內建 Agent）進行迭代、規劃和構建。可在本地或雲端使用。"
+
+      terminal_title: "經典終端機與第三方 Agent"
+
+      terminal_description: "支援第三方 Agent（Claude Code、Codex、Gemini CLI）和經典終端機工作流程的現代終端機。"
+
+      free_badge: "免費"
+
+      subscribe: "訂閱"
+
+      subscribe_title: "訂閱以在 Warp 中使用 Agent 驅動開發。"
+
+      subscribe_item_credits: "每月 1,500 credits"
+
+      subscribe_item_models: "使用 OpenAI、Anthropic 和 Google 的前沿模型"
+
+      subscribe_item_reload: "使用 Reload credits 和基於用量的折扣"
+
+      subscribe_item_cloud_agents: "更長的雲端 Agent 使用額度"
+
+      subscribe_item_indexing: "最高程式碼庫索引上限"
+
+      subscribe_item_drive: "無限 Warp Drive 物件和協作"
+
+      subscribe_item_email: "私密郵件支援"
+
+      subscribe_item_cloud_storage: "無限雲端工作階段儲存"
+
+    agent:
+      title: "自定義你的 Warp Agent"
+
+      subtitle: "選擇應用內 Agent 的預設設定。"
+
+      default_model: "預設模型"
+
+      recommended: "推薦"
+
+      premium: "高階"
+
+      autonomy: "自主性"
+
+      autonomy_team_workspace_description: "自主性設定由你的團隊工作區設定。"
+
+      autonomy_full: "完全"
+
+      autonomy_full_description: "無需詢問即可執行命令、編寫程式碼並讀取檔案。"
+
+      autonomy_partial: "部分"
+
+      autonomy_partial_description: "可以規劃、讀取檔案並執行低風險命令。在進行任何更改或執行敏感命令前會詢問。"
+
+      autonomy_none: "無"
+
+      autonomy_none_description: "未經你批准不會執行任何操作。"
+
+      upgrade_premium_models: "升級以使用高階模型。"
+
+      paid_models_required: "最先進的模型需要付費計劃。"
+
+      click_here: "點選這裡"
+
+      open_page_manually_suffix: " 並手動開啟頁面。"
+
+      paste_token_suffix: "以貼上瀏覽器中的 token。"
+
+      plan_activated: "計劃已成功啟用。所有高階模型均可使用。"
+
+
+  # ── 設定 ──
+  settings:
+    no_settings_match: "沒有匹配搜尋的設定。"
+
+    no_settings_match_hint: "可以嘗試使用不同關鍵詞，或檢查是否有拼寫錯誤。"
+
+    enable_setting: "啟用{setting}"
+
+    disable_setting: "停用{setting}"
+
+    about: "關於"
+
+    account: "賬號"
+
+    appearance: "外觀"
+
+    billing_and_usage: "賬單與用量"
+
+    cloud_platform: "雲平臺"
+
+    code: "程式碼"
+
+    environments: "環境"
+
+    features: "功能"
+
+    free: "免費"
+
+    indexing_and_projects: "索引與專案"
+
+    keyboard_shortcuts: "鍵盤快捷鍵"
+
+    knowledge: "知識"
+
+    mcp_servers: "MCP Servers"
+
+    oz_cloud_api_keys: "Oz Cloud API Keys"
+
+    privacy: "隱私"
+
+    referrals: "推薦"
+
+    shared_blocks: "共享區塊"
+
+    teams: "團隊"
+
+    third_party_cli_agents: "第三方 CLI agents"
+
+    warp_agent: "Warp Agent"
+
+    warp_drive: "Warp Drive"
+
+    settings_sync: "設定同步"
+
+    refer_a_friend: "推薦朋友"
+
+    upgrade_to_turbo_plan: "升級到 Turbo 套餐"
+
+    upgrade_to_lightspeed_plan: "升級到 Lightspeed 套餐"
+
+    version: "版本"
+
+    up_to_date: "已是最新"
+
+    check_for_updates: "檢查更新"
+
+    checking_for_update: "正在檢查更新..."
+
+    compare_plans: "比較套餐"
+
+    contact_support: "聯絡支援"
+
+    downloading_update: "正在下載更新..."
+
+    update_available: "有可用更新"
+
+    manage_billing: "管理賬單"
+
+    relaunch_warp: "重啟 Warp"
+
+    updating: "正在更新..."
+
+    installed_update: "更新已安裝"
+
+    unable_update_new_version: "有新版本的 Warp 可用，但無法安裝"
+
+    unable_launch_new_version: "新版本 Warp 已安裝，但無法啟動。"
+
+    update_warp_manually: "手動更新 Warp"
+
+    open_settings_file: "開啟設定檔案"
+
+    open_file: "開啟檔案"
+
+    fix_with_oz: "用 Oz 修復"
+
+    workspace_override_tooltip: "此選項由你的組織設定強制執行，無法自定義。"
+
+    learn_more_docs_tooltip: "點選前往檔案瞭解更多"
+
+    not_synced_to_devices_tooltip: "此設定不會同步到你的其他裝置"
+
+    warp_drive_description: "Warp Drive 是終端機中的工作區，可用於儲存個人使用或與團隊共享的工作流程、筆記本、提示詞和環境變數。"
+
+    add_repo: "新增儲存庫"
+
+    create_environment: "建立環境"
+
+    selected_repos: "已選儲存庫"
+
+    available_indexed_repos: "可用的已索引儲存庫"
+
+    select_repos_for_environment: "為你的環境選擇儲存庫"
+
+    select_repos_description_indexed: "選擇本地已索引儲存庫，為環境建立 Agent 提供上下文。"
+
+    select_repos_description: "選擇儲存庫，為環境建立 Agent 提供上下文。"
+
+    loading_locally_indexed_repos: "正在載入本地已索引儲存庫…"
+
+    no_locally_indexed_repos: "尚未找到本地已索引儲存庫。請先索引一個儲存庫，然後重試。"
+
+    local_repo_selection_unavailable: "此構建不支援選擇本地儲存庫。"
+
+    no_directory_selected: "未選擇目錄"
+
+    add_profile: "新增設定"
+
+    agents: "Agents"
+
+    agents_description: "設定 Agent 的執行邊界。選擇它能訪問什麼、擁有多少自主權，以及何時必須請求你的批准。你還可以微調自然語言輸入、程式碼庫感知等行為。"
+
+    profiles: "設定"
+
+    profiles_description: "設定可定義 Agent 的執行方式，包括它能執行哪些操作、何時需要批准，以及用於編碼和規劃等任務的模型。你還可以將設定限定到單個專案。"
+
+    models: "模型"
+
+    permissions: "許可權"
+
+    managed_permissions_notice: "你的部分許可權由工作區管理。"
+
+    apply_code_diffs: "應用程式碼 diff"
+
+    read_files: "讀取檔案"
+
+    execute_commands: "執行命令"
+
+    interact_with_running_commands: "與執行中的命令互動"
+
+    command_denylist: "命令 denylist"
+
+    command_denylist_description: "用於匹配 Warp Agent 應始終請求執行許可權的命令的正規表示式。"
+
+    command_allowlist: "命令 allowlist"
+
+    command_allowlist_description: "用於匹配 Warp Agent 可自動執行的命令的正規表示式。"
+
+    directory_allowlist: "目錄 allowlist"
+
+    directory_allowlist_description: "授予 Agent 對特定目錄的檔案訪問許可權。"
+
+    base_model: "基礎模型"
+
+    base_model_description: "此模型是 Warp Agent 的主要引擎。它負責大多數互動，並在規劃或程式碼生成等任務需要時呼叫其他模型。Warp 可能會根據模型可用性，或為了工作階段摘要等輔助任務，自動切換到其他模型。"
+
+    codebase_context: "程式碼庫上下文"
+
+    codebase_context_description: "允許 Warp Agent 生成可用作上下文的程式碼庫大綱。你的程式碼永遠不會儲存在我們的伺服器上。"
+
+    learn_more: "瞭解更多"
+
+    call_mcp_servers: "呼叫 MCP servers"
+
+    mcp_allowlist: "MCP allowlist"
+
+    mcp_allowlist_description: "允許 Warp Agent 呼叫這些 MCP servers。"
+
+    mcp_denylist: "MCP denylist"
+
+    mcp_denylist_description: "呼叫此列表中的任何 MCP servers 前，Warp Agent 都會始終請求許可權。"
+
+    usage: "用量"
+
+    usage_resets: "{date} 重置"
+
+    credits: "額度"
+
+    restricted_due_to_billing_issue: "因賬單問題受限"
+
+    unlimited: "無限制"
+
+    weekly: "每週"
+
+    monthly: "每月"
+
+    biweekly: "雙週"
+
+    ai_credit_limit_description: "這是你賬號 AI 額度的{duration}上限。"
+
+    toolbar_layout: "工具欄佈局"
+
+    show_model_picker: "在提示詞中顯示模型選擇器"
+
+    commands_enable_toolbar: "啟用工具欄的命令"
+
+    refresh: "重新整理"
+
+    match_terminal: "跟隨終端機"
+
+    line_height: "行高"
+
+    reset_to_default: "恢復預設"
+
+    keybinding: "按鍵繫結"
+
+    seconds: "秒"
+
+    reset_to_warp_defaults: "重置為 Warp 預設值"
+
+    executable_path: "可執行檔案路徑"
+
+    directory_path: "目錄路徑"
+
+    view_all_system_fonts: "檢視所有可用系統字型"
+
+    font_weight: "字型粗細"
+
+    font_size_px: "字號（px）"
+
+    notebook_font_size: "筆記本字號"
+
+    cursor_type_disabled_vim: "Vim 模式下游標型別已禁用"
+
+    load_more: "載入更多"
+
+    new_agent: "新建 Agent"
+
+    buy_more: "購買更多"
+
+    monthly_spend_limit: "每月消費上限"
+
+    one_time_purchase: "一次性購買"
+
+    delete_environment: "刪除環境"
+
+    delete_environment_confirm: "確定刪除環境？"
+
+    delete_environment_description: "確定要移除 {name} 環境嗎？"
+
+    edit: "編輯"
+
+    index_new_folder: "索引新資料夾"
+
+    initialized_folders: "已初始化/已索引資料夾"
+
+    no_folders_initialized: "尚未初始化任何資料夾。"
+
+    indexing_label: "索引中"
+
+    no_index_created: "未建立索引"
+
+    open_project_rules: "開啟專案規則"
+
+    discovered_chunks: "已發現 {count} 個 chunks"
+
+    syncing_progress: "正在同步 - {completed} / {total}"
+
+    syncing: "正在同步..."
+
+    synced: "已同步"
+
+    codebase_too_large: "程式碼庫過大"
+
+    stale: "已過期"
+
+    failed: "失敗"
+
+    no_index_built: "未構建索引"
+
+    lsp_servers: "LSP 伺服器"
+
+    restart_server: "重啟伺服器"
+
+    installed: "已安裝"
+
+    installing: "正在安裝..."
+
+    checking: "正在檢查..."
+
+    available_for_download: "可下載"
+
+    available: "可用"
+
+    busy: "忙碌"
+
+    stopped: "已停止"
+
+    not_running: "未執行"
+
+    new_window: "新建視窗"
+
+    new_tab: "新建分頁"
+
+    split_pane: "拆分面板"
+
+    autohides_on_focus_loss: "失去鍵盤焦點時自動隱藏"
+
+    click_to_set_hotkey: "點選設定全域性快捷鍵"
+
+    save: "儲存"
+
+    not_supported_wayland: "不支援 Wayland。"
+
+    tab_key_behavior: "Tab 鍵行為"
+
+    characters_word: "視為單詞一部分的字元"
+
+    no_enterprise_regexes: "你的組織尚未設定任何企業 regex。"
+
+    recommended: "推薦"
+
+    add_all: "全部新增"
+
+    copyright: "Copyright 2026 Warp"
+
+    sign_up: "註冊"
+
+    codebase_indexing: "程式碼庫索引"
+
+    editor_and_code_review: "編輯器與程式碼審查"
+
+    auto_open_code_review_panel: "自動開啟程式碼審查面板"
+
+    auto_open_code_review_panel_description: "啟用後，程式碼審查面板會在一次對話中首次接受 diff 時開啟"
+
+    show_code_review_button: "顯示程式碼審查按鈕"
+
+    show_code_review_button_description: "在視窗右上角顯示用於切換程式碼審查面板的按鈕。"
+
+    show_code_review_diff_stats: "在程式碼審查按鈕上顯示 diff 統計"
+
+    show_code_review_diff_stats_description: "在程式碼審查按鈕上顯示新增和刪除行數。"
+
+    project_explorer: "專案資源管理器"
+
+    project_explorer_description: "在左側工具面板中新增 IDE 風格的專案資源管理器/檔案樹。"
+
+    global_file_search: "全域性檔案搜尋"
+
+    global_file_search_description: "在左側工具面板中新增全域性檔案搜尋。"
+
+    transfer: "轉讓"
+
+    create: "建立"
+
+    failed_load_github_repos: "載入 GitHub 儲存庫失敗"
+
+    failed_suggest_docker: "建議 Docker 映象失敗"
+
+    unknown_response: "suggestCloudEnvironmentImage 返回未知響應"
+
+    failed_load_github_repositories: "載入 GitHub 儲存庫失敗"
+
+
+  close_session_confirmation:
+    title: "關閉工作階段？"
+
+    description: "你即將關閉一個正在共享的工作階段。關閉後，所有人的共享都會結束。"
+
+    close_session: "關閉工作階段"
+
+    dont_show_again: "不再顯示。"
+
+
+  rewind_confirmation:
+    rewind: "回退"
+
+    description: "確定要回退嗎？這會將你的程式碼和對話恢復到此處之前，並取消 Agent 當前正在執行的所有命令。原始對話的副本會儲存在你的對話歷史中。"
+
+    info: "回退不會影響手動編輯或透過 shell 命令編輯的檔案。"
+
+
+  summarization_cancel:
+    title: "取消摘要？"
+
+    description: "摘要已在執行。如果現在取消，請求仍可能產生費用，當前進度會丟失，重新開始也會花更久。\n\n確定要取消嗎？"
+
+    cancel_summarization: "取消摘要"
+
+    continue_summarization: "繼續摘要"
+
+
+  build_plan_migration:
+    learn_more_prefix: "在我們的"
+
+    pricing_page: "定價頁面瞭解更多"
+
+
+  global_search:
+    search_in_files: "搜尋檔案"
+
+    toggle_case_sensitivity: "切換區分大小寫"
+
+    toggle_regex: "切換 Regex"
+
+    partial_results_message: "結果集只包含部分匹配項。請使用更具體的搜尋條件來縮小結果範圍。"
+
+
+  ssh_install_tmux:
+    why_need_tmux: "為什麼需要 tmux？"
+
+
+  ssh_remote_server_choice:
+    dont_ask_again: "不再詢問"
+
+
+  # ── 共享區塊 ──
+  shared_blocks:
+    title: "共享區塊"
+
+    deleting: "正在刪除..."
+
+    no_blocks_yet: "你還沒有任何共享區塊。"
+
+    getting_blocks: "正在獲取區塊..."
+
+    failed_load: "載入區塊失敗。請重試。"
+
+    link_copied: "連結已複製。"
+
+    unshared_success: "區塊已成功取消共享。"
+
+    unshared_failed: "取消共享區塊失敗。請重試。"
+
+    unshare_block: "取消共享區塊"
+
+    unshare: "取消共享"
+
+    manage_shared_blocks: "管理共享區塊"
+
+    copy_link: "複製連結"
+
+
+  share_block:
+    title: "共享區塊"
+
+    title_placeholder: "標題（可選）"
+
+    command_and_output: "命令和輸出"
+
+    command: "命令"
+
+    output: "輸出"
+
+    creation_failed: "出了點問題。請重試。"
+
+    link_copied: "連結已複製。"
+
+    embed_code_copied: "嵌入程式碼已複製。"
+
+    default_embed_title: "嵌入的 Warp 區塊"
+
+    create_link: "建立連結"
+
+    get_embed: "獲取嵌入程式碼"
+
+    creating_block: "正在建立區塊..."
+
+    embed_generation_error: "生成嵌入程式碼時出錯"
+
+    show_prompt: "顯示提示字元"
+
+    redact_secrets: "隱藏金鑰（API key、密碼、IP 地址、PII 等）"
+
+
+  # ── 程式碼審查擴充套件 ──
+  code_review_ext:
+    commit: "提交"
+
+    undo: "復原"
+
+    discard_changes: "丟棄更改"
+
+    initialize_codebase: "初始化程式碼庫"
+
+    open_repository: "開啟儲存庫"
+
+    send_to_agent: "傳送給 Agent"
+
+    commit_and_create_pr: "提交併建立 PR"
+
+    show_file_navigation: "顯示檔案導航"
+
+    enables_indexing: "啟用程式碼庫索引和 WARP.md"
+
+    navigate_to_repo: "導航到儲存庫並初始化以開始編碼"
+
+    open_file: "開啟檔案"
+
+    add_file_diff_context: "將檔案 diff 新增為上下文"
+
+    copy_file_path: "複製檔案路徑"
+
+    push: "推送"
+
+    publish: "釋出"
+
+    stash_changes: "暫存更改"
+
+    changes_committed: "更改已成功提交。"
+
+    changes_committed_pushed: "更改已提交併推送。"
+
+    search_diff_sets: "搜尋 diff 集或比較分支…"
+
+    review_comment: "審查評論"
+
+    uncommitted_changes: "未提交的更改"
+
+    changes_vs_main_branch: "與主分支相比的更改"
+
+    changes_vs_branch: "與 {branch} 相比的更改"
+
+    all_uncommitted_changes: "工作目錄中的所有未提交更改"
+
+    all_changes_vs_main_branch: "與主分支相比的所有更改"
+
+    all_changes_vs_branch: "與 {branch} 相比的所有更改"
+
+    no_changes_to_discard: "沒有可丟棄的更改"
+
+    discard_uncommitted: "丟棄未提交的更改？"
+
+    discard_all_uncommitted_file: "丟棄對檔案的所有未提交更改？"
+
+    discard_all_changes: "丟棄所有更改？"
+
+    discard_all_changes_file: "丟棄對檔案的所有更改？"
+
+    loading_open_changes: "正在載入未提交更改..."
+
+    could_not_submit_comments: "無法將評論提交給 Agent"
+
+    reviewing_open_changes: "正在審查未提交更改"
+
+    commit_your_changes: "提交你的更改"
+
+    publish_branch: "釋出分支"
+
+    push_changes: "推送更改"
+
+    create_pull_request: "建立 Pull Request"
+
+    discard_all_button: "全部丟棄"
+
+
+  # ── MCP 擴充套件 ──
+  mcp_ext:
+    add: "新增"
+
+    save: "儲存"
+
+    edit_variables: "編輯變數"
+
+    delete_mcp: "刪除 MCP"
+
+    remove_from_team: "從團隊移除"
+
+    add_new_server: "新增新 MCP Server"
+
+    edit_server: "編輯 MCP Server"
+
+    server_updated: "MCP server 已更新"
+
+
+  # ── 平臺擴充套件 ──
+  platform_ext:
+    create_api_key: "+ 建立 API Key"
+
+    warp_api_key: "Warp API Key"
+
+    please_select_agent: "請選擇一個 Agent。"
+
+    failed_create_key: "建立 API key 失敗。請重試。"
+
+    done: "完成"
+
+    creating: "正在建立…"
+
+    create_key: "建立 key"
+
+    create_agent: "建立 Agent"
+
+    failed_delete_key: "刪除 API key 失敗。請重試。"
+
+
+  # ── 建立 API Key ──
+  create_api_key:
+    personal_description: "此 API key 繫結到你的使用者，可對你的 Warp 賬戶發起請求。"
+
+    team_description: "此 API key 繫結到你的團隊，可代表你的團隊發起請求。"
+
+    agent_description: "此 API key 繫結到 Agent，可代表該 Agent 發起請求。"
+
+    personal: "個人"
+
+    team: "團隊"
+
+    agent: "Agent"
+
+    one_day: "1 天"
+
+    thirty_days: "30 天"
+
+    ninety_days: "90 天"
+
+    never: "永不過期"
+
+    failed_load_agents: "載入 Agents 失敗。請關閉後重試。"
+
+    no_current_team: "無法建立團隊 API key，因為當前沒有團隊。"
+
+    copied: "已複製"
+
+    name: "名稱"
+
+    type: "型別"
+
+    expiration: "過期時間"
+
+
+  # ── 賬單擴充套件 ──
+  billing_ext:
+    valid_currency_amount: "請輸入有效的貨幣金額"
+
+    price_range: "請輸入 $0.01 到 $10,000,000 之間的價格"
+
+
+  # ── AI 擴充套件 ──
+  ai_ext:
+    update_agent: "更新 Agent"
+
+    restore: "恢復"
+
+    continue_locally: "在本地繼續"
+
+    view_in_oz: "在 Oz 中檢視"
+
+    visit_oz: "訪問 Oz"
+
+    all: "全部"
+
+    personal: "個人"
+
+    view_agents: "檢視 Agents"
+
+    clear_filters: "清除篩選"
+
+    clear_all: "清除全部"
+
+    mark_all_as_read: "全部標記已讀"
+
+    open_in_code_review: "在程式碼審查中開啟"
+
+    manage_rules: "管理規則"
+
+    review_changes: "審查更改"
+
+    open_all_in_code_review: "在程式碼審查中全部開啟"
+
+    dismiss: "忽略"
+
+    dont_show_again: "不再顯示"
+
+    follow_up_existing_conversation: "在現有對話中繼續追問"
+
+    type_answer_press_enter: "輸入你的回答並按 Enter"
+
+    rewind: "回退"
+
+    add_rule: "新增規則"
+
+    edit_rule: "編輯規則"
+
+    file_explorer: "檔案瀏覽器"
+
+    rich_input: "富文字輸入"
+
+    enable_notifications: "啟用通知"
+
+    notifications_setup: "通知設定說明"
+
+    update_warp_plugin: "更新 Warp 外掛"
+
+    plugin_update_instructions: "外掛更新說明"
+
+    stop_sharing: "停止共享"
+
+    remove_queued_prompt: "移除排隊提示詞"
+
+    send_now: "立即傳送"
+
+    refresh_aws_credentials: "重新整理 AWS 憑證"
+
+    configure: "設定"
+
+    delete_profile: "刪除設定"
+
+    add: "新增"
+
+    initialize_project: "初始化專案"
+
+    save: "儲存"
+
+    delete_rule: "刪除規則"
+
+    link_copied: "連結已複製到剪貼簿"
+
+    plan_id_copied: "計劃 ID 已複製到剪貼簿"
+
+    copied_branch_name: "分支名已複製"
+
+    failed_prepare_download: "準備檔案下載失敗。"
+
+    copied_to_clipboard: "已複製到剪貼簿"
+
+    thank_you_feedback: "感謝你的反饋！"
+
+    show_version_history: "顯示版本歷史"
+
+    fork_locally: "在本地 fork 此工作階段"
+
+    view_in_oz_tooltip: "在 Oz 網頁應用中檢視此執行"
+
+    view_all_tasks: "檢視你的 Agent 任務及所有共享團隊任務"
+
+    view_personal_tasks: "檢視你建立的 Agent 任務"
+
+    open_in_github: "在 GitHub 中開啟"
+
+    rewind_tooltip: "回退到此區塊之前"
+
+    choose_environment: "選擇環境"
+
+    voice_input: "語音輸入"
+
+    attach_file: "附加檔案"
+
+    attach_context: "附加上下文"
+
+    hand_off_to_cloud: "Handoff 到雲端"
+
+    open_file_explorer: "開啟檔案瀏覽器"
+
+    open_rich_input: "開啟富文字輸入"
+
+    open_agent_settings: "開啟編碼 Agent 設定"
+
+    view_plugin_install: "檢視安裝 Warp 外掛的說明"
+
+    new_plugin_version: "有新版本的 Warp 外掛可用"
+
+    view_plugin_update: "檢視更新 Warp 外掛的說明"
+
+    hide_rich_input: "隱藏富文字輸入"
+
+    show_responses: "顯示回覆"
+
+    hide_responses: "隱藏回覆"
+
+    show_agent_responses: "顯示 Agent 回覆"
+
+    hide_agent_responses: "隱藏 Agent 回覆"
+
+    take_over: "接管"
+
+    take_over_control: "接管命令控制"
+
+    stop_agent_task: "停止 Agent 任務"
+
+    auto_queue_on: "自動排隊已開啟：你的下一條提示詞會進入佇列"
+
+    auto_queue_next_prompt: "Agent 響應時自動排隊下一條提示詞"
+
+    exit_agent_input: "退出 Agent 輸入"
+
+    mermaid_diagram: "Mermaid 圖表"
+
+    error_apology: "抱歉，我無法完成該請求。"
+
+    credit_limit_resets: "你已達到額度上限。額度將在 {formatted_next_refresh_time} 重置。"
+
+    server_overloaded: "Warp 當前負載過高。請稍後重試。"
+
+    internal_warp_error: "Warp 內部錯誤。"
+
+    resume_when_network_restored: "網路連線恢復後將繼續對話..."
+
+    attempting_resume_conversation: "正在嘗試繼續對話..."
+
+    aws_credentials_error: "{model_name} 的 AWS 憑證已過期或缺失。請重新整理你的 AWS 憑證。"
+
+    invalid_api_key: "提供的 API key 無效"
+
+    invalid_api_key_detail: "使用 {model_name} 時無法透過 {provider} 認證。請檢查你的 API key 是否正確。"
+
+    edit_api_keys: "編輯 API Keys"
+
+    copy_debug_id: "複製 debug ID"
+
+    agent_waiting_for_instructions: "Agent 正在等待指令..."
+
+    warping: "Warping..."
+
+    adjusting_tasks: "正在調整任務..."
+
+    generating_fix: "正在生成修復..."
+
+    creating_diff: "正在建立 diff..."
+
+    preparing_question: "正在準備問題..."
+
+    generating_plan: "正在生成計劃..."
+
+    updating_plan: "正在更新計劃..."
+
+    summarizing_conversation: "正在總結對話..."
+
+    summarizing_command_output: "正在總結命令輸出..."
+
+    searching_codebase: "正在搜尋程式碼庫..."
+
+    reading_files: "正在讀取檔案..."
+
+    grepping: "正在 grep..."
+
+    finding_files: "正在查詢檔案..."
+
+    executing_command: "正在執行命令..."
+
+    writing_command_input: "正在寫入命令輸入..."
+
+    waiting_for_command_exit: "正在等待命令退出..."
+
+    searching_web: "正在搜尋網頁..."
+
+    fetching_pr_comments: "正在獲取 PR 評論..."
+
+    write_to_running_command_prompt: "可以向這個正在執行的命令寫入以下內容嗎？"
+
+    grant_access_files: "授予訪問以下檔案的許可權？"
+
+    grant_access_repository: "授予訪問以下儲存庫的許可權？"
+
+    search_files_directory_prompt: "可以搜尋此目錄中的檔案嗎？"
+
+    calling_mcp_tool: "正在呼叫 \"{name}\" MCP tool..."
+
+    reading_mcp_resource: "正在讀取 \"{name}\" MCP resource..."
+
+    next_check_in: "{formatted} 後進行下次檢查"
+
+    searching_web_for_query: "正在搜尋網頁：\"{q}\""
+
+    agent_asking_take_control: "Agent 請求你接管控制。"
+
+    take_control_running_command: "接管正在執行的命令"
+
+    refine: "最佳化"
+
+    take_control: "接管控制"
+
+    always_allow: "始終允許"
+
+    starting_environment_step: "正在啟動環境（第 3/3 步）"
+
+    creating_environment_step: "正在建立環境（第 2/3 步）"
+
+    connecting_to_host_step: "正在連線主機（第 1/3 步）"
+
+    missing_github_auth: "缺少 GitHub 認證。"
+
+    authenticate_github: "認證 GitHub"
+
+    cloud_agent_run_cancelled: "雲端 Agent 執行已取消"
+
+    primary_model_failed_named: "主模型（{primary}）失敗。正在使用 fallback 模型重試。"
+
+    primary_model_failed: "主模型失敗。正在使用 fallback 模型重試。"
+
+    warping_with_model: "正在使用 {name} Warping。"
+
+    warping_with_another_model: "正在使用其他模型 Warping。"
+
+    setting_up_environment: "正在設定環境"
+
+    slash_commands: "Slash commands"
+
+    turn_off_auto_approve: "關閉自動批准所有 Agent 操作"
+
+    auto_approve_actions: "自動批准此任務的所有 Agent 操作"
+
+    start_remote_control: "開始遠端控制"
+
+    login_to_use_remote_control: "登入以使用 /remote-control"
+
+    context_window_usage: "上下文視窗用量"
+
+    context_remaining: "剩餘 {pct}% 上下文"
+
+
+  terminal:
+    new_session: "新建終端機工作階段"
+
+    start_agent_conversation: "開始新的 Agent 對話"
+
+    start_cloud_agent_conversation: "開始新的雲端 Agent 對話"
+
+    cycle_past_commands: "切換歷史命令和對話"
+
+    open_code_review: "開啟程式碼審查"
+
+    autodetect_agent_prompts: "自動檢測終端機工作階段中的 Agent 提示詞"
+
+    for_terminal: "返回終端機"
+
+    run_commands: "執行命令"
+
+    steer_running_agent: "引導正在執行的 Agent"
+
+    ask_follow_up: "繼續追問"
+
+    tell_agent_what_to_build: "告訴 Agent 要構建什麼..."
+
+    enter_prompt_for_agent: "輸入給 {agent} 的提示詞..."
+
+    handoff_to_cloud: "Handoff 到雲端"
+
+    hand_off_to_environment: "Handoff 到 {environment}"
+
+    kick_off_cloud_agent: "啟動雲端 Agent"
+
+    ai_command_search_hint: "輸入 '#' 獲取 AI 命令建議"
+
+    optimize: "最佳化"
+
+    optimize_warp_for_codebase: "為此程式碼庫最佳化 Warp？"
+
+    optimize_warp_for_codebase_description: "讓 Agent 理解你的程式碼庫並生成規則，以獲得更智慧、更一致的響應。你也可以隨時執行 /init 來完成此操作"
+
+
+  requested_command:
+    reject: "拒絕"
+
+    run: "執行"
+
+    done: "完成"
+
+    generating_command: "正在生成命令..."
+
+    command_waiting_for_user: "可以執行此命令並讀取輸出嗎？"
+
+    mcp_tool_waiting_for_user: "可以呼叫此 MCP tool 嗎？"
+
+    monitoring_command: "Agent 正在監控命令..."
+
+    agent_needs_input: "Agent 需要你的輸入才能繼續"
+
+    user_in_control: "使用者正在控制。"
+
+    paused_user_in_control: "已暫停 Agent。使用者正在控制。"
+
+    user_in_control_short: "使用者控制中"
+
+    agent_errored: "Agent 遇到問題。請接管控制。"
+
+    viewing_command_detail: "正在檢視命令詳情"
+
+    viewing_mcp_tool_detail: "正在檢視 MCP tool 呼叫詳情"
+
+
+  code_diff:
+    refine: "最佳化"
+
+    accept_and_continue_with_agent: "接受並繼續使用 Agent"
+
+    iterate_with_agent: "讓 Agent 繼續迭代"
+
+
+  # ── Prompt Alert ──
+  prompt_alert:
+    no_connection: "無網際網路連線"
+
+    telemetry_disabled_primary: "要使用 AI 功能，"
+
+    at_limit: "已達上限 -"
+
+    restricted_payment: "因付款問題受限"
+
+    out_of_credits: "Credits 已用完"
+
+    enable_analytics: "啟用分析"
+
+    or_separator: " 或 "
+
+    sentence_period: "。"
+
+    upgrade: "升級"
+
+    upgrade_to_build: "升級到 Build"
+
+    sign_up_for_credits: "註冊以獲取更多 AI credits"
+
+    manage_billing: "管理賬單"
+
+    contact_team_admin: "，請聯絡團隊管理員"
+
+    enable_premium_overages: "啟用高階超額用量"
+
+    ask_admin_enable_overages: "，請讓團隊管理員啟用超額用量"
+
+    increase_monthly_spend_limit: "提高每月支出上限"
+
+    ask_admin_increase_overages: "，請讓團隊管理員提高超額用量上限"
+
+    compare_plans: "比較套餐"
+
+    contact_support: "聯絡支援"
+
+    use_own_api_keys: "使用你自己的 API keys"
+
+    add_credits: "新增 credits"
+
+
+  # ── Cloud Setup Guide ──
+  cloud_setup_guide:
+    title: "Oz 雲端 Agent 入門"
+
+    subtitle: "可直接在 Warp 中從整合（Linear、Slack）、事件（GitHub、內建計劃任務）啟動 Oz 雲端 Agent，也可以透過 Oz SDK 或 CLI 以程式設計方式啟動。"
+
+    docs_prefix: "檢視 "
+
+    oz_documentation: "Oz 檔案"
+
+    docs_suffix: " 瞭解更多。"
+
+    quick_start: "快速開始：訪問 oz.warp.dev，使用基於 UI 的設定體驗。"
+
+    manual_setup: "手動設定：使用 Oz CLI 建立 Slack 或 Linear 整合"
+
+    create_environment: "建立環境"
+
+    create_environment_cli: "建立環境（CLI）"
+
+    create_slack_integration: "建立 Slack 整合"
+
+    create_linear_integration: "建立 Linear 整合"
+
+    repo_argument_description: "儲存庫的 GitHub 連結或本地檔案路徑"
+
+    name_argument_description: "環境名稱"
+
+    docker_image_argument_description: "用於環境的 Docker image"
+
+    environment_id_argument_description: "要整合的環境 ID"
+
+    environment_description: "首先，設定一個環境來建立整合。"
+
+    environment_docs_prefix: "使用 Warp 的環境設定命令，讓 Agent 幫你完成。"
+
+    visit_docs: "檢視檔案"
+
+    existing_docker_image: "或者，提供你自己的現有 Docker image。"
+
+    create_integration: "建立整合"
+
+    integration_docs_prefix: "整合 Slack 或 Linear，透過 @Warp 給 Warp 的 Agent 分配任務。"
+
+
+  # ── Agent 管理 ──
+  agent_management:
+    get_started: "開始使用"
+
+    new_agent: "新建 Agent"
+
+    all: "全部"
+
+    all_tabs: "所有分頁"
+
+    unread: "未讀"
+
+    errors: "錯誤"
+
+    none: "無"
+
+    status: "狀態"
+
+    source: "來源"
+
+    created_on: "建立時間"
+
+    has_artifact: "包含產物"
+
+    harness: "Harness"
+
+    environment: "環境"
+
+    created_by: "建立者"
+
+    filter_header: "{label}：{value}"
+
+    working: "進行中"
+
+    done: "已完成"
+
+    failed: "失敗"
+
+    last_24_hours: "過去 24 小時"
+
+    past_3_days: "過去 3 天"
+
+    last_week: "過去一週"
+
+    pull_request: "Pull Request"
+
+    plan: "計劃"
+
+    screenshot: "截圖"
+
+    file: "檔案"
+
+    source_linear: "Linear"
+
+    source_api: "API"
+
+    source_slack: "Slack"
+
+    source_cli: "CLI"
+
+    source_scheduled: "定時"
+
+    source_warp_app: "Warp App"
+
+    source_oz_web: "Oz Web"
+
+    source_github_action: "GitHub Action"
+
+    agent_completed: "{agent} 已完成"
+
+    agent_needs_attention: "{agent} 需要處理"
+
+    notification_from_codex: "來自 Codex 的通知"
+
+    task_completed: "任務已完成。"
+
+    child_agent_completed: "子 Agent 已完成。"
+
+    waiting_for_input: "正在等待輸入。"
+
+    session_expired: "工作階段已過期"
+
+    session_expired_tooltip: "工作階段會在一週後過期，過期後無法開啟。"
+
+    no_session_available: "沒有可用工作階段"
+
+    unknown: "未知"
+
+    agent: "Agent"
+
+    executor: "執行者"
+
+    metadata_source: "來源：{source}"
+
+    metadata_harness: "Harness：{harness}"
+
+    metadata_label: "{label}：{value}"
+
+    metadata_run_time: "執行時間：{run_time}"
+
+    metadata_credits_used: "已用 credits：{usage}"
+
+    runs: "執行"
+
+    suggested: "建議"
+
+    cloud_agents_description_prefix: "使用雲端 Agents 執行並行 Agents，構建可自主執行的 Agents，並從任何地方檢視你的 Agents。"
+
+    visit_docs: "檢視檔案"
+
+    loading_cloud_agent_runs: "正在載入雲端 Agent 執行"
+
+    loading_agents: "正在載入 Agents..."
+
+    no_results_matched_filters: "沒有匹配當前篩選條件的結果"
+
+
+  # ── Tab Config 側欄 ──
+  tab_config_sidecar:
+    make_default: "設為預設"
+
+    already_default: "已是預設項"
+
+    edit_config: "編輯設定"
+
+    remove: "移除"
+
+
+  # ── AI 檔案 ──
+  ai_document:
+    default_planning_document_title: "計劃檔案"
+
+    click: "點選"
+
+    update_plan_tooltip: "此計劃有 Agent 尚未感知的更改。{save_action} 可停止 Agent 當前任務併傳送更新後的計劃"
+
+    save_sync_tooltip: "儲存此計劃並自動同步到你的 Warp Drive"
+
+    synced_tooltip: "此計劃已同步到你的 Warp Drive，之後的編輯會自動儲存。"
+
+    untitled: "未命名"
+
+    untitled_markdown_filename: "未命名.md"
+
+    copy_link: "複製連結"
+
+    show_in_warp_drive: "在 Warp Drive 中顯示"
+
+    save_as_markdown_file: "另存為 Markdown 檔案"
+
+    attach_to_active_session: "附加到當前工作階段"
+
+    copy_plan_id: "複製計劃 ID"
+
+
+  # ── AI 輸出 ──
+  ai_output:
+    thought_for: "思考了 {duration}"
+
+    thinking: "正在思考"
+
+    failed_to_read_files: "讀取檔案失敗"
+
+    conversation_summarized: "工作階段已總結"
+
+    searched: "已搜尋"
+
+    searching: "正在搜尋"
+
+    conversation_search_prefix: "{verb}"
+
+    conversation_label_prefix: "工作階段 "
+
+    agent_run_label_prefix: "Agent 執行 "
+
+    this_conversation: "此工作階段"
+
+    query_suffix: "：{query}"
+
+    ellipsis: "..."
+
+    refunded_one_credit: "抱歉這次互動體驗不佳。我們已退還 1 個 credit。感謝你的反饋！"
+
+    refunded_credits: "抱歉這次互動體驗不佳。我們已退還 {count} 個 credits。感謝你的反饋！"
+
+    response_not_counted: "此響應不會計入你的用量。"
+
+    always_allow_file_access_coding_tasks: "始終允許編碼任務訪問檔案"
+
+    always_allow_file_access_repo: "始終允許訪問此儲存庫的檔案"
+
+    always_allow_oz_read_only_commands: "始終允許 Oz 執行只讀命令（依賴模型判斷）"
+
+    manage_ai_autonomy_permissions: "管理 AI 自主許可權"
+
+    untitled: "未命名"
+
+    warp_docs: "Warp 檔案"
+
+    search_in: "在 {path} 中搜尋"
+
+    searching_in: "正在 {path} 中搜尋"
+
+    no_relevant_files_found: "未找到相關檔案。"
+
+    search_in_failed_not_indexed: "在 {path} 中搜尋失敗，因為程式碼庫尚未索引"
+
+    search_in_failed: "在 {path} 中搜尋失敗"
+
+    search_in_cancelled: "已取消在 {path} 中搜尋"
+
+    open_skill: "開啟 skill"
+
+    stopped_task_progress: "已停止任務 {index}/{total}：“{title}”"
+
+    stopped_task_named: "已停止任務：“{title}”"
+
+    stopped_task: "已停止任務"
+
+    resume_conversation: "繼續工作階段"
+
+    could_not_apply_changes: "無法將更改應用到檔案。"
+
+    suggestion_edited_elsewhere: "此建議正在另一個分頁中編輯。"
+
+    new_conversation_started: "已開始新工作階段"
+
+    continuing_current_conversation: "繼續當前工作階段"
+
+    new_conversation_suggestion_cancelled: "新工作階段建議已取消"
+
+    start_new_conversation: "開始新工作階段"
+
+    topic_changed_new_conversation: "看起來話題變了。要新建一個工作階段嗎？"
+
+    current_directory: "當前目錄"
+
+    grep_for: "Grep "
+
+    grepping_for: "正在 grep "
+
+    in_path: "，位置：{path}"
+
+    in_path_cancelled: "，位置：{path}，已取消"
+
+    cancelled_grep_patterns_in: "已取消在 {path} 中 grep 以下模式"
+
+    grep_patterns_in: "在 {path} 中 grep 以下模式"
+
+    grepping_patterns_in: "正在 {path} 中 grep 以下模式"
+
+    search_files_that_match: "搜尋匹配以下模式的檔案："
+
+    finding_files_that_match: "正在查詢匹配以下模式的檔案："
+
+    cancelled_file_search_patterns_in: "已取消在 {path} 中搜尋匹配以下模式的檔案"
+
+    find_files_patterns_in: "在 {path} 中搜尋匹配以下模式的檔案"
+
+    finding_files_patterns_in: "正在 {path} 中查詢匹配以下模式的檔案"
+
+    read_mcp_resource_permission: "可以讀取這個 MCP resource 嗎？"
+
+    upload_artifact: "上傳產物：{path}"
+
+    description: "描述：{description}"
+
+    status_uploaded_artifact: "狀態：已上傳產物 {artifact_uid}"
+
+    uploaded_file: "已上傳檔案：{filepath}"
+
+    status_upload_failed: "狀態：上傳失敗：{error}"
+
+    upload_artifact_permission: "允許上傳此產物？"
+
+    accept: "接受"
+
+    auto_approve: "自動批准"
+
+    manage_agent_permissions: "管理 Agent 許可權"
+
+    sending_message_to: "正在傳送訊息給"
+
+    started_agent: "已啟動 Agent "
+
+    cancelled_suffix: " 已取消。"
+
+    check_now: " · 立即檢查"
+
+    check_now_tooltip: "讓 Agent 立即檢查此命令，跳過計時器。"
+
+    send_feedback: "傳送反饋"
+
+    view_screenshot: "檢視截圖"
+
+    use_computer_permission: "可以為此任務使用計算機控制嗎？"
+
+    comment_addressed: "已處理評論：“{content}”"
+
+    references: "引用"
+
+    suggestions: "建議："
+
+    good_response: "好的響應"
+
+    bad_response: "差的響應"
+
+    continue_conversation: "繼續工作階段"
+
+    fork_current_conversation: "Fork 當前工作階段"
+
+    fork_conversation: "Fork 工作階段"
+
+    show_credit_usage_details: "顯示 credit 用量詳情"
+
+    debug_output: "除錯輸出"
+
+    listing_messages: "正在列出訊息"
+
+    grepping_for_patterns: "正在 grep 模式"
+
+    grepping_for_patterns_with_list: "正在 grep 模式：{patterns}"
+
+    reading_messages: "正在讀取 {count} 條訊息"
+
+
+  # ── 終端機上下文選單 ──
+  terminal_context_menu:
+    copy_prompt: "複製提示詞"
+
+    copy_right_prompt: "複製右側提示字元"
+
+    copy_working_directory: "複製工作目錄"
+
+    copy_output_markdown: "以 Markdown 複製輸出"
+
+    copy_output: "複製輸出"
+
+    copy_filtered_output: "複製過濾後的輸出"
+
+    copy_url: "複製 URL"
+
+    copy_path: "複製路徑"
+
+    copy_command: "複製命令"
+
+    copy_commands: "複製命令"
+
+    copy_git_branch: "複製 Git 分支"
+
+    insert_into_input: "插入到輸入框"
+
+    show_in_finder: "在 Finder 中顯示"
+
+    show_containing_folder: "顯示所在資料夾"
+
+    open_in_warp: "在 Warp 中開啟"
+
+    open_in_editor: "在編輯器中開啟"
+
+    find_within_block: "在區塊內查詢"
+
+    find_within_blocks: "在多個區塊內查詢"
+
+    scroll_to_top_of_block: "滾動到區塊頂部"
+
+    scroll_to_top_of_blocks: "滾動到多個區塊頂部"
+
+    scroll_to_bottom_of_block: "滾動到區塊底部"
+
+    scroll_to_bottom_of_blocks: "滾動到多個區塊底部"
+
+    share: "共享..."
+
+    share_block: "共享區塊..."
+
+    toggle_block_filter: "切換區塊過濾"
+
+    toggle_bookmark: "切換書籤"
+
+    save_as_prompt: "另存為提示詞"
+
+    copy_share_link: "複製共享連結"
+
+    copy_conversation_text: "複製工作階段文字"
+
+    copy_debugging_link: "複製除錯連結"
+
+    copy_conversation_id: "複製工作階段 ID"
+
+    copy_debugging_id: "複製除錯 ID"
+
+    fork: "派生"
+
+    fork_from_here: "從此處派生"
+
+    fork_from_here_dev_only: "從此處派生（僅開發）"
+
+    rewind_to_before_here: "回退到此處之前"
+
+    edit_cli_agent_toolbelt: "編輯 CLI Agent 工具欄"
+
+    edit_agent_toolbelt: "編輯 Agent 工具欄"
+
+    edit_prompt: "編輯提示字元"
+
+    select_all: "全選"
+
+    command_search: "命令搜尋"
+
+    ai_command_search: "AI 命令搜尋"
+
+    show_input_hint_text: "顯示輸入提示文字"
+
+    hide_input_hint_text: "隱藏輸入提示文字"
+
+
+  init_project:
+    onboarding_text: "很好，我們開始設定這個專案。是否允許 Agent 索引此程式碼庫？這樣我在這個程式碼庫中工作時能快速理解上下文，並提供更有針對性的解決方案。程式碼不會儲存在 Warp 伺服器上。"
+
+    already_setup_text: "這個專案似乎已經初始化。你可以點選下面的按鈕，為此程式碼庫重新生成 AGENTS.md。"
+
+    index_codebase_prompt: "是否讓 Agent 索引此程式碼庫？這會帶來更高效、更貼合上下文的說明。"
+
+    skip_for_now: "暫時跳過"
+
+    skip_for_now_period: "暫時跳過。"
+
+    yes_index_codebase: "是，索引此程式碼庫。"
+
+    generate_agents_file: "生成 AGENTS.md 檔案"
+
+    skip_agents_generation: "暫時跳過 AGENTS.md 生成"
+
+    create_environment: "建立環境"
+
+    regenerate_agents_file: "重新生成 AGENTS.md 檔案"
+
+    codebase_index_started: "程式碼庫索引已開始"
+
+    codebase_index_cancelled: "程式碼庫索引已取消"
+
+    view_index_status: "檢視索引狀態"
+
+    enable_language_support_prompt: "為此程式碼庫啟用 {language} 支援？這會提供更智慧的程式碼導航、內聯錯誤檢查等能力。"
+
+    started_language_support_install: "已開始安裝語言支援"
+
+    language_support_enabled_for: "{language} 語言支援已啟用"
+
+    language_support_enabled: "語言支援已啟用"
+
+    language_support_skipped: "已跳過語言支援"
+
+    create_agents_prompt: "是否建立 AGENTS.md 檔案？Warp 可以根據你的程式碼庫推斷專案規則、上下文和約定，併為你建立該檔案。Agent 編寫程式碼時會使用這些上下文。"
+
+    generating_agents: "正在生成 AGENTS.md..."
+
+    create_environment_prompt: "是否為此專案建立一個環境，以便在其中執行雲端 Agent？Agent 會引導你選擇 GitHub 儲存庫、設定 Docker 映象並指定啟動命令。"
+
+    creating_environment: "正在建立環境..."
+
+    environment_created: "環境已建立"
+
+    environment_creation_skipped: "已跳過環境建立"
+
+    project_rules_linked_from: "專案規則已從 {path} 連結"
+
+    project_rules_configured: "專案規則已設定"
+
+    project_rules_already_configured: "專案規則已設定"
+
+    project_rules_skipped: "已跳過專案規則"
+
+
+  # ── 查詢 / 過濾 ──
+  find:
+    placeholder: "查詢"
+
+    replace_placeholder: "取代"
+
+    regex_toggle: "Regex 開關"
+
+    case_sensitive_search: "區分大小寫搜尋"
+
+    preserve_case: "保留大小寫"
+
+    select_all: "全選"
+
+    replace_all: "全部取代"
+
+    find_in_selected_block: "在選中區塊中查詢"
+
+    a11y_value: "輸入搜尋短語。"
+
+    a11y_help: "按 Escape 退出，按 Enter 和 Shift-Enter 在匹配項之間導航"
+
+    result_count: "第 {index} 個結果，共 {count} 個。"
+
+    result_help: "按 Enter 和 Shift-Enter 在匹配項之間導航。按 Escape 退出。"
+
+    no_results: "無結果。"
+
+    enable_regex_search: "啟用 regex 搜尋"
+
+    disable_regex_search: "禁用 regex 搜尋"
+
+    enable_case_sensitive_search: "啟用區分大小寫搜尋"
+
+    disable_case_sensitive_search: "禁用區分大小寫搜尋"
+
+    focus_next_match: "聚焦下一個匹配項"
+
+    focus_previous_match: "聚焦上一個匹配項"
+
+    close_find_bar: "關閉查詢欄"
+
+
+  block_filter:
+    placeholder: "過濾區塊輸出"
+
+    context_lines_tooltip: "顯示匹配項周圍的上下文行"
+
+    invert_filter: "反向過濾"
+
+
+  block_list:
+    tag_agent_for_assistance: "標記 Agent 協助"
+
+    save_as_workflow: "另存為工作流程"
+
+    save_as_workflow_secrets: "包含金鑰的區塊無法儲存。"
+
+
+  # ── 終端機橫幅 ──
+  terminal_banner:
+    slow_bootstrap: "看起來你的 shell 啟動有點慢...  "
+
+    shell_process_exited: "Shell 程序已退出"
+
+    shell_process_could_not_start: "Shell 程序無法啟動！"
+
+    shell_process_exited_prematurely: "Shell 程序過早退出！"
+
+    premature_shell_subtext: "啟動 {shell} 並對其進行 Warpify 時出了問題，導致程序終止。這裡會顯示 Warpify 指令碼輸出，可能指向原因。"
+
+    file_issue: "提交問題"
+
+    copy_error: "複製錯誤"
+
+    more_info: "更多資訊"
+
+    more_info_lower: "更多資訊"
+
+    show_initialization_block: "顯示初始化區塊"
+
+    completions_not_working_start: "看起來你的補全沒有正常工作（"
+
+    completions_not_working_middle: "）。在 "
+
+    completions_not_working_end: " 中啟用 tmux warpification 可能會解決此問題。"
+
+    settings: "設定"
+
+    incompatible_shell_configuration: "你的 shell 設定與 Warp 不相容...  "
+
+    did_you_intend: "你是否想用 "
+
+    to_move_cursor: " 移動游標？"
+
+    use_emacs_bindings: "是，使用 Emacs 風格繫結"
+
+    keep_ide_bindings: "否，保留 IDE 繫結"
+
+    powerlevel10k_now_supports_warp: "Powerlevel10k 現在支援 Warp！  "
+
+    powerlevel10k_unsupported_start: "你似乎正在執行較舊的（不受支援的）版本，請按照"
+
+    these_instructions: "這些說明"
+
+    update_to_latest_version: "更新到最新版本。"
+
+    pure_not_supported: "Warp 暫不支援 Pure。你可以考慮改用受支援的提示字元。  "
+
+    learn_more: "瞭解更多"
+
+    loading_session: "正在載入工作階段..."
+
+
+  # ── 終端機面板 ──
+  terminal_pane:
+    copy_link: "複製連結"
+
+    stop_sharing_session: "停止共享工作階段"
+
+    open_on_desktop: "在桌面端開啟"
+
+    share_session: "共享工作階段"
+
+
+  # ── SSH 錯誤 ──
+  ssh_error:
+    report_issue_start: "我們正在積極改進 Warp 中 SSH 的穩定性。請考慮"
+
+    filing_an_issue: "提交 issue"
+
+    report_issue_end: "到 GitHub，方便我們更好地定位問題。"
+
+    warpify_without_tmux: "不使用 TMUX 進行 Warpify"
+
+    continue_without_warpification: "不進行 Warpification 並繼續"
+
+
+  # ── 共享工作階段 ──
+  shared_session:
+    view: "檢視"
+
+    edit: "編輯"
+
+    make_editor: "設為編輯者"
+
+    make_viewer: "設為檢視者"
+
+    change_role: "更改角色"
+
+    share_session: "共享工作階段..."
+
+    stop_sharing: "停止共享"
+
+    copy_session_sharing_link: "複製工作階段共享連結"
+
+    request_edit_access: "請求編輯許可權"
+
+    offline_reconnecting: "離線，正在嘗試重新連線..."
+
+    continue_in_cloud_tooltip: "在 Cloud Mode 中繼續此任務"
+
+    fork_conversation_locally: "在本地 fork 此工作階段"
+
+    open_conversation_in_desktop: "在 Warp 桌面端開啟此工作階段"
+
+    viewing_snapshot: "你正在檢視快照"
+
+    agent_task: "Agent 任務"
+
+    snapshot_subtitle: "此共享工作階段顯示的是你開啟時的狀態。如果 Agent 仍在執行，請重新整理以檢視最新進度。"
+
+    metadata_directory: "目錄：{value}"
+
+    metadata_source: "來源：{value}"
+
+    metadata_skill: "Skill：{value}"
+
+    metadata_run_time: "執行時間：{value}"
+
+    metadata_credits_used: "已用 Credits：{value}"
+
+
+  # ── Ambient Agent ──
+  ambient_agent:
+    learn_more: "瞭解更多"
+
+    agent_harness: "Agent harness"
+
+    locked_to_warp_agent_handoff: "此工作階段使用 Warp Agent，因此 cloud handoff 也會使用 Warp"
+
+    disabled_by_admin: "已被管理員禁用"
+
+    running_on_machine: "你的 Agent 當前正在 {specs} 機器上執行。"
+
+    upgrade: "升級"
+
+    powerful_cloud_agents_suffix: "以獲得更強大的雲端 Agents。"
+
+    authenticate_with_github: "使用 GitHub 認證"
+
+    free_credits: "免費 credits"
+
+    api_key: "API key"
+
+    choose_type: "選擇型別"
+
+    inherit_key_from_environment: "從環境繼承 key"
+
+    search_models: "搜尋模型"
+
+    choose_agent_model: "選擇 Agent 模型"
+
+    no_results: "無結果"
+
+    default_model: "預設模型"
+
+    no_environment: "（無環境）"
+
+    prompt_agent_to_interact_with_command: "提示 Agent 與 `{command}` 互動"
+
+    prompt_agent_to_interact_with_running_command: "提示 Agent 與正在執行的命令互動"
+
+    agent_waiting_on_instructions: "Agent 正在等待指令"
+
+    agent_waiting_for_command_exit: "Agent 正在等待命令退出"
+
+    agent_needs_permission: "Agent 需要你的許可權才能繼續"
+
+    agent_in_control: "Agent 正在控制"
+
+
+  # ── SSH 檔案上傳 ──
+  ssh_file_upload:
+    uploading: "正在上傳"
+
+    uploaded: "已上傳"
+
+    failed_to_upload: "上傳失敗"
+
+    to_destination: " 到 "
+
+    clear_upload: "清除上傳"
+
+    close_upload_session: "關閉上傳工作階段"
+
+    view_upload_session: "檢視上傳工作階段"
+
+    file_uploads: "檔案上傳"
+
+
+  # ── Auth Secret FTUX ──
+  auth_secret_ftux:
+    search_placeholder: "搜尋金鑰或建立新金鑰"
+
+    no_secrets_found: "未找到金鑰"
+
+    loading: "載入中…"
+
+    unable_to_load_secrets: "無法載入金鑰"
+
+
+  # ── 購買 Credits 橫幅 ──
+  buy_credits_banner:
+    auto_reload: "自動充值"
+
+    auto_reload_tooltip: "啟用後，當 credits 餘額較低時會自動購買 {credits} credits"
+
+    monthly_limit_reached_title: "已達到每月上限"
+
+    out_of_credits_title: "Credits 已用完"
+
+    monthly_limit_reached: "你的每月支出上限已達到。請提高上限後繼續。"
+
+    contact_admin_increase_limit: "請聯絡團隊管理員提高每月上限。"
+
+    purchase_exceeds_limit_start: "購買這些 credits 會超過你的每月支出上限。"
+
+    increase_it: "提高上限"
+
+    purchase_exceeds_limit_end: "後繼續。"
+
+    add_more_credits: "向你的賬戶新增更多 credits 以繼續使用 Oz agents。"
+
+    contact_admin_purchase_credits: "請聯絡團隊管理員購買更多 credits 後繼續。"
+
+    buying: "購買中…"
+
+    buy: "購買"
+
+
+  # ── Launch Config 儲存彈窗 ──
+  launch_config_save:
+    save_configuration: "儲存設定"
+
+    open_yaml_file: "開啟 YAML 檔案"
+
+    filename_placeholder: "launch_config.yaml"
+
+    link_to_documentation: "檢視檔案"
+
+    saved_to_start: "已成功儲存到 "
+
+    failed_same_name: "儲存失敗。已存在同名啟動設定。"
+
+    failed_generic: "儲存時遇到問題。"
+
+    not_saved_description: "這會將當前視窗、分頁和麵板設定儲存到檔案，方便之後再次開啟。"
+
+    not_saved_description_with_keybinding: "這會將當前視窗、分頁和麵板設定儲存到檔案，方便之後透過 {keybinding} 再次開啟。"
+
+    yaml_saved_to_start: "\nYAML 檔案將儲存到 "
+
+
+  onboarding_prompt:
+    line_one: "接下來，設定你的提示字元。Warp 提供自定義提示字元構建器，你也可以選擇 PS1 來沿用已有的提示字元設定。"
+
+    line_two: "Warp 支援許多自定義提示字元，例如 oh-my-zsh、Starship、Powerlevel10K。"
+
+    learn_more: "瞭解更多"
+
+    confirm: "確認"
+
+    shell_prompt: "Shell 提示字元（PS1）"
+
+    no_existing_prompt: "沒有現有提示字元。"
+
+    look_incorrect: "看起來不對？"
+
+    let_us_know: "告訴我們。"
+
+    warp_prompt: "Warp 提示字元"
+
+    customizable_in_appearance_settings: "可在外觀設定中自定義。"
+
+
+  # ── 通用 ──
+  common:
+    show: "顯示"
+
+    cut: "剪下"
+
+    copy: "複製"
+
+    paste: "貼上"
+
+    edit: "編輯"
+
+    create: "建立"
+
+    save: "儲存"
+
+    upgrade: "升級"
+
+    clear: "清除"
+
+    close: "關閉"
+
+    cancel: "取消"
+
+    open: "開啟"
+
+    enable: "啟用"
+
+    saving: "正在儲存..."
+
+    "yes": "是"
+
+    update: "更新"
+
+    delete: "刪除"
+
+    remove: "移除"
+
+    manage: "管理"
+
+    allow: "允許"
+
+    unknown: "未知"
+
+    continue: "繼續"
+
+    install: "安裝"
+
+    exit: "退出"
+
+    previous: "上一個"
+
+    next: "下一步"
+
+    maximize: "最大化"
+
+    minimize: "最小化"
+
+    dismiss: "忽略"
+
+    dont_show_again: "不再顯示"
+
+    finish: "完成"
+
+    new_badge: "新功能"
+
+    period: "。"
+
+    search: "搜尋"
+
+    no_matches_found: "未找到匹配項。"
+
+    accept: "接受"
+
+    expand: "展開"
+
+    collapse: "摺疊"
+
+    custom_ellipsis: "自定義..."
+
+    split_pane_right: "向右拆分面板"
+
+    split_pane_left: "向左拆分面板"
+
+    split_pane_down: "向下拆分面板"
+
+    split_pane_up: "向上拆分面板"
+
+    close_pane: "關閉面板"
+

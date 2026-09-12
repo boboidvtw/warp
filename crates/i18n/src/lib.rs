@@ -5,6 +5,7 @@ use std::sync::{OnceLock, RwLock};
 
 const DEFAULT_LOCALE: &str = "en";
 const ZH_CN_LOCALE: &str = "zh-CN";
+const ZH_TW_LOCALE: &str = "zh-TW";
 const LOCALES_DIR: &str = "bundled/locales";
 
 type Locale = String;
@@ -23,7 +24,14 @@ pub fn init_locale() {
 }
 
 pub fn set_locale(locale: &str) {
-    let locale = if locale.starts_with("zh") {
+    let lower = locale.to_ascii_lowercase().replace('_', "-");
+    let locale = if lower.starts_with("zh-tw")
+        || lower.starts_with("zh-hk")
+        || lower.starts_with("zh-mo")
+        || lower.contains("hant")
+    {
+        ZH_TW_LOCALE
+    } else if lower.starts_with("zh") {
         ZH_CN_LOCALE
     } else {
         DEFAULT_LOCALE
@@ -35,9 +43,17 @@ pub fn set_locale(locale: &str) {
 }
 
 pub fn t(key: &'static str) -> Cow<'static, str> {
-    translate(current_locale(), key)
-        .or_else(|| translate(DEFAULT_LOCALE, key))
-        .unwrap_or(Cow::Borrowed(key))
+    let current = current_locale();
+    if let Some(text) = translate(current, key) {
+        return text;
+    }
+    // Fallback: If zh-TW is active but key is missing, check zh-CN first
+    if current == ZH_TW_LOCALE {
+        if let Some(text) = translate(ZH_CN_LOCALE, key) {
+            return text;
+        }
+    }
+    translate(DEFAULT_LOCALE, key).unwrap_or(Cow::Borrowed(key))
 }
 
 pub fn interpolate(template: &str, args: &[(&str, String)]) -> Cow<'static, str> {
@@ -49,7 +65,7 @@ pub fn interpolate(template: &str, args: &[(&str, String)]) -> Cow<'static, str>
 }
 
 fn env_locale() -> Option<String> {
-    ["WARP_LANG", "LANG", "LANGUAGE", "LC_ALL", "LC_MESSAGES"]
+    ["WARP_LANG", "LC_ALL", "LC_MESSAGES", "LANG", "LANGUAGE"]
         .into_iter()
         .find_map(|key| std::env::var(key).ok().filter(|value| !value.is_empty()))
 }
@@ -163,10 +179,11 @@ fn load_dir(path: PathBuf) -> Option<Translations> {
         let Ok(contents) = std::fs::read_to_string(&path) else {
             continue;
         };
+
         merge_locale_file(&contents, &mut translations);
     }
 
-    (!translations.is_empty()).then_some(translations)
+    Some(translations)
 }
 
 #[cfg(target_family = "wasm")]
@@ -178,6 +195,10 @@ fn load_translations() -> Translations {
     );
     merge_locale_file(
         include_str!("../../../resources/bundled/locales/zh-CN.yml"),
+        &mut translations,
+    );
+    merge_locale_file(
+        include_str!("../../../resources/bundled/locales/zh-TW.yml"),
         &mut translations,
     );
     translations
@@ -225,5 +246,68 @@ fn flatten_value(prefix: &str, value: &serde_yaml::Value, translations: &mut Has
             translations.insert(prefix.to_owned(), value.to_owned());
         }
         _ => {}
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_set_locale_detection() {
+        set_locale("zh-TW");
+        assert_eq!(current_locale(), ZH_TW_LOCALE);
+
+        set_locale("zh_TW.UTF-8");
+        assert_eq!(current_locale(), ZH_TW_LOCALE);
+
+        set_locale("zh-HK");
+        assert_eq!(current_locale(), ZH_TW_LOCALE);
+
+        set_locale("zh-MO");
+        assert_eq!(current_locale(), ZH_TW_LOCALE);
+
+        set_locale("zh_Hant");
+        assert_eq!(current_locale(), ZH_TW_LOCALE);
+
+        set_locale("zh-CN");
+        assert_eq!(current_locale(), ZH_CN_LOCALE);
+
+        set_locale("zh_CN.UTF-8");
+        assert_eq!(current_locale(), ZH_CN_LOCALE);
+
+        set_locale("en_US");
+        assert_eq!(current_locale(), DEFAULT_LOCALE);
+
+        set_locale("ja");
+        assert_eq!(current_locale(), DEFAULT_LOCALE);
+    }
+
+    #[test]
+    fn test_interpolation() {
+        let text = "Hello, {name}! Welcome to {app}.";
+        let args = [("name", "Bobo".to_string()), ("app", "Warp".to_string())];
+        let result = interpolate(text, &args);
+        assert_eq!(result, "Hello, Bobo! Welcome to Warp.");
+    }
+
+    #[test]
+    fn test_translations_load_and_zh_tw() {
+        // Force loading translations
+        let trans = translations();
+        assert!(trans.contains_key("en"), "Missing English translations");
+        assert!(trans.contains_key("zh-CN"), "Missing zh-CN translations");
+        assert!(trans.contains_key("zh-TW"), "Missing zh-TW translations");
+
+        set_locale("zh-TW");
+        assert_eq!(t("menu.new_tab"), "新建分頁");
+        assert_eq!(t("menu.set_default_terminal"), "設定 Warp 為預設終端機");
+        assert_eq!(t("menu.preferences"), "偏好設定");
+        assert_eq!(t("menu.log_out"), "登出");
+        assert_eq!(t("menu.new_terminal_tab"), "新建終端機分頁");
+        assert_eq!(t("menu.edit"), "編輯");
+        assert_eq!(t("menu.view"), "檢視");
+        assert_eq!(t("menu.file"), "檔案");
+        assert_eq!(t("menu.help"), "說明");
     }
 }
