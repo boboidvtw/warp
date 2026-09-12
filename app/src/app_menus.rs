@@ -1,3 +1,4 @@
+use std::borrow::Cow;
 use std::fs::File;
 use std::path::PathBuf;
 
@@ -101,7 +102,7 @@ pub fn menu_bar(ctx: &mut AppContext) -> MenuBar {
 // To create submenus, we could use MenuItem::Custom(CustomMenuItem::new_with_submenu(...))
 pub fn dock_menu() -> Menu {
     Menu::new(
-        &t!("menu.new_window"),
+        t!("menu.new_window"),
         vec![MenuItem::Custom(CustomMenuItem::new(
             &t!("menu.new_window"),
             move |ctx| {
@@ -264,7 +265,7 @@ fn make_new_app_menu(ctx: &AppContext) -> Menu {
         None,
     )));
     menu_items.push(MenuItem::Standard(StandardAction::Quit));
-    Menu::new(&t!("menu.warp"), menu_items)
+    Menu::new(t!("menu.warp"), menu_items)
 }
 
 fn make_new_file_menu(ctx: &AppContext) -> Menu {
@@ -291,7 +292,7 @@ fn make_new_file_menu(ctx: &AppContext) -> Menu {
         updateable_custom_item_without_checkmark(CustomAction::CloseWindow, ctx),
     ]);
 
-    Menu::new(&t!("menu.file"), file_menu_options)
+    Menu::new(t!("menu.file"), file_menu_options)
 }
 
 fn make_new_edit_menu(ctx: &AppContext) -> Menu {
@@ -391,7 +392,7 @@ fn make_new_edit_menu(ctx: &AppContext) -> Menu {
 
     edit_menu_items.extend(group_5);
 
-    Menu::new(&t!("menu.edit"), edit_menu_items)
+    Menu::new(t!("menu.edit"), edit_menu_items)
 }
 
 fn make_new_view_menu(ctx: &AppContext) -> Menu {
@@ -503,7 +504,7 @@ fn make_new_view_menu(ctx: &AppContext) -> Menu {
         ]);
     }
 
-    Menu::new(&t!("menu.view"), items)
+    Menu::new(t!("menu.view"), items)
 }
 
 fn make_new_tab_menu(ctx: &AppContext) -> Menu {
@@ -530,7 +531,7 @@ fn make_new_tab_menu(ctx: &AppContext) -> Menu {
         updateable_custom_item_without_checkmark(CustomAction::CloseOtherTabs, ctx),
         updateable_custom_item_without_checkmark(CustomAction::CloseTabsRight, ctx),
     ];
-    Menu::new(&t!("menu.tab"), items)
+    Menu::new(t!("menu.tab"), items)
 }
 
 fn make_new_ai_menu(ctx: &AppContext) -> Menu {
@@ -563,7 +564,7 @@ fn make_new_ai_menu(ctx: &AppContext) -> Menu {
         ));
     }
 
-    Menu::new(&t!("menu.ai"), items)
+    Menu::new(t!("menu.ai"), items)
 }
 
 fn make_new_blocks_menu(ctx: &AppContext) -> Menu {
@@ -601,7 +602,7 @@ fn make_new_blocks_menu(ctx: &AppContext) -> Menu {
         items.extend(debug_items);
     }
 
-    Menu::new(&t!("menu.blocks"), items)
+    Menu::new(t!("menu.blocks"), items)
 }
 
 fn make_new_drive_menu(ctx: &AppContext) -> Menu {
@@ -645,7 +646,7 @@ fn make_new_drive_menu(ctx: &AppContext) -> Menu {
         ])
     }
 
-    Menu::new(&t!("menu.drive"), items)
+    Menu::new(t!("menu.drive"), items)
 }
 
 /// Returns [`MenuItem`]s that aid debugging to be included in the Block menu.
@@ -758,7 +759,7 @@ fn toggle_bootstrap_block_menu_item() -> MenuItem {
 
 fn make_new_window_menu() -> Menu {
     Menu::new(
-        &t!("menu.window"),
+        t!("menu.window"),
         vec![
             MenuItem::Standard(StandardAction::Minimize),
             MenuItem::Standard(StandardAction::Zoom),
@@ -942,7 +943,7 @@ fn feedback_menu_item() -> MenuItem {
 
 fn make_new_help_menu() -> Menu {
     Menu::new(
-        &t!("menu.help"),
+        t!("menu.help"),
         vec![
             feedback_menu_item(),
             link_menu_item(t!("menu.warp_documentation"), links::USER_DOCS_URL.into()),

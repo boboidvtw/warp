@@ -71,14 +71,21 @@ fn compile_metal_shaders() {
     let metal_path = "src/platform/mac/rendering/metal/shaders/shaders.metal";
     let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
 
-    let air_path = out_path.join("shaders.air");
-    let air_path = air_path.to_str().unwrap();
-
     let lib_path = out_path.join("shaders.metallib");
-    let lib_path = lib_path.to_str().unwrap();
 
     println!("cargo:rerun-if-changed={header_path}");
     println!("cargo:rerun-if-changed={metal_path}");
+
+    // Use precompiled shaders.metallib if available (enables building without full Xcode / metal compiler)
+    let precompiled = std::path::Path::new("shaders.metallib");
+    if precompiled.exists() {
+        std::fs::copy(precompiled, &lib_path).expect("failed to copy precompiled shaders.metallib");
+        return;
+    }
+
+    let air_path = out_path.join("shaders.air");
+    let air_path = air_path.to_str().unwrap();
+    let lib_path = lib_path.to_str().unwrap();
 
     let mut compile_args = vec!["-sdk", "macosx", "metal", "-c", metal_path, "-o", air_path];
     if cfg!(feature = "enable-metal-frame-capture") {
